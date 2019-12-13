@@ -45,9 +45,15 @@
     font-family: 'Lato Black';
     src: url(../fonts/Lato/Lato-Black.ttf);
 }
-.header{
-    width:90%;
+body{
+    margin: 0px;
+    padding: 0px;
 }
-table {
-    border-spacing: 0px;  
+p{
+    display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+td{
+    padding: 0px;
 }
