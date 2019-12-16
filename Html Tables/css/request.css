@@ -55,5 +55,6 @@ p{
     margin-block-end: 0em;
 }
 td{
-    padding: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
