@@ -71,42 +71,30 @@
 .profile-image{
     width:50px;height: 50px;border-radius: 50%;
 }
-.Accounts{
-    padding: 3px;background-color: #FFFFFF;width:30%;
-}
+
 .bodycontent{
     margin: 2%;box-shadow: 0 0 6px #B5B5B5;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;padding: 3%;
 }
-.account-content{
-    padding: 2%;
-}
-.left-content{
-    width:90%;
-}
-.right-content{
-    width:100%;padding: 3%;
-}
-.rent-invoice-container{
-    display: flex;
-    justify-content: space-between;
-    padding: 4%;
-    background-color: #F0F0F0;
-    align-items: center;
-    border-radius: 8px;
-    width:90%;
-    box-shadow: 5px 8px 10px #cccccc;
-}
-.line-space{
-    margin-bottom: 3%;
-}
-.receipts-container{
-    width:100%;min-height: 100vh;
-    border-right: 1px solid #cccccc
-}
+
 .main-container{
     background-color: #F0F0F0;;
 }
-.bodycontent{
-    min-height: 100vh;
+.notification-bell-icon{
+    width:40px;height:40px;
+}
+.body-content{
+    margin: 2%;
+}
+.rent-invoice-content{
+    display: flex;flex-direction:row;justify-content: space-between;align-items: center;
+}
+.new-fragment-button{
+    border:0px;padding: 2%;border-radius:25px;background-color: #32BDD2;width: 30%;color: #FFFFFF;
+}
+.UTN-content{
+    padding: 2%;background-color: #F0F0F0;border-radius: 6px;width:50%;
+}
+.constant-content{
+    display: flex;flex-direction: row;align-items: center;justify-content: space-between;
 }
