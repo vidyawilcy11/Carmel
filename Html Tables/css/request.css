@@ -72,7 +72,7 @@ td{
 }
 
 .right-container{
-    width: 95%;
+    width: 100%;padding-top: 3%;padding-right: 3%;background-color: #FCFCFC;padding-left: 3%;
 }
 .browse-button{
     border:0px;background-color: #32bdd2;color: #FFFFFF;width: 20%;border-radius: 5px;padding: 2%;
@@ -81,5 +81,9 @@ td{
     padding: 5%;
 }
 .button-content{
-    width: 100%;
+    width: 100%;margin-top: 10%;
+    margin-bottom: 2%;
+}
+.navigation-button{
+    padding: 8%;border:1px solid #000000;border-radius:50%;font-size: 1vw;
 }
