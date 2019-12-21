@@ -59,7 +59,7 @@ td{
     padding-bottom: 0px;
 }
 .header{
-    width: 100%;padding: 0.5%;box-shadow: 2px 2px 1px 1px rgb(230, 228, 228);
+    width: 100%;padding: 0.5%;box-shadow: 2px 2px 1px 1px rgb(230, 228, 228);background-color: #FFFFFF;
 }
 .profile-image{
     width:50px;height: 50px;border-radius: 50%;
@@ -86,4 +86,7 @@ td{
 }
 .navigation-button{
     padding: 8%;border:1px solid #000000;border-radius:50%;font-size: 1vw;
+}
+.profile-information{
+    border:1px solid #D5E2E8;background-color: #F4F8FA;padding: 0.5%;width:60%;margin-bottom: 2%;
 }
