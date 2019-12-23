@@ -2,38 +2,98 @@
 <html>
 
 <head>
-    <title></title>
+    <title>Attachments</title>
 </head>
 
 <body>
-    <div>Main-container</div>
-    <div class="main-container">
-        <div class="header-content"></div>
-        <div class="body-content"></div>
-    </div>
-
-    <div class="header-content">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-    </div>
-
-    <div class="body-content">
-        <div class="left-container">
-            <div>
-                <span>REQUISITION</span>
+    <div>
+        <div class="main-container">
+            <div class="header-content">
+                <div style="width:100%;padding: 0.5%;box-shadow: 2px 2px 1px 1px rgb(230, 228, 228);display: grid;grid-template-columns: 100fr 4fr 4fr 4fr">
+                    <div>
+                        <img src="../images/request-icons-02.png" width="35" height="auto">
+                    </div>
+                    <div style="text-align: end;">
+                        <img src="../images/1.png" style="width:50px;height:50px;border-radius: 50%;">
+                    </div>
+                    <div style="text-align: center;align-self: center;">
+                        <span>John Doe</span>
+                    </div>
+                    <div style="text-align:center;align-self: center">
+                        <img src="../images/request-icons-05.png" width="10" height="10">
+                    </div>
+                </div>
             </div>
-            <div>
-                <div></div>
+
+            <div class="body-content" style="display:grid;grid-template-columns:5fr 95fr;margin: 2%;border:1px solid #B5B5B5;width: 96%;">
+                <div class="left-container">
+                    <div style="transform:rotate(270deg);margin-top:60%;">
+                        <span>REQUISITION</span>
+                    </div>
+                    <div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="right-container" style="padding:2%;background-color: #FCFCFC;">
+                    <div>
+                        <div class="attachments" style="background-color:#F0F0F0;padding:1%;border:1px solid #E0E0E0;">
+                            <span>ATTACHMENTS</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                    </div>
+
+                    <div style="width:60%;padding: 3% 38% 8% 2%;border: 1px solid #F0F0F0;">
+                        <div class="browse-file" style="display:grid;grid-template-columns:30fr 30fr;border:1px solid #F0F0F0;">
+                            <div style="padding:3%;">
+                                <div class="left-container">
+                                    <div>
+                                        <p>Select a file from my computer.</p>
+                                        <p>Maximum allowed size is 5MB per file. Only documents like pdf, docx, ppt,
+                                            xls etc
+                                            are allowed.</p>
+                                    </div>
+                                    <div>
+                                        <button style="border:0px;background-color: #32bdd2;color: #FFFFFF;border-radius: 5px;padding: 2%;">BROWSE</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="background-color: #32BDD2;
+                            padding: 6%;
+                          
+                            align-self: center;">
+                                <div class="drop-file-right-container" style="text-align: center;padding: 6%;border: 2px dashed #ffffff">
+                                    <div>
+                                        <img src="../images/request-icons-06.png" alt="" width="30" height="30">
+                                    </div>
+                                    <div>
+                                        <span style="color:#FFFFFF;">Drop a file here</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="next-button-content" style="display:grid;grid-template-columns:90fr 5fr 5fr;margin-top: 5%;">
+                            <div>
+                                <span style="border-bottom:2px solid #B5B5B5;">SAVE
+                                    DRAFT</span>
+                            </div>
+                            <div>
+                                <span style="border-bottom:2px solid #32BDD2;color:#32BDD2;">BACK</span>
+                            </div>
+                            <div style="background-color: #32BDD2;
+                            border-radius: 25px;
+                            text-align: center;
+                            padding: 5%;">
+                                <span>NEXT<img src="../images/request-icons-12.png" alt="" width="20" height="20" style="vertical-align: bottom;"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="right-container">
-            <div>attachments</div>
-            <div>browse-file</div>
-            <div>next-button-content</div>
-        </div>
     </div>
+
 </body>
 
 </html>
