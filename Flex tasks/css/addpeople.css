@@ -71,7 +71,7 @@
     width:30px;height: 30px;border-radius: 50%;
 }
 .main-container{
-    width: 30%;border:2px solid #b5b5b5;border-radius: 20px;margin: auto;margin-top: 10%;
+    width: 35%;border:2px solid #b5b5b5;border-radius: 20px;margin: auto;margin-top: 10%;
 }
 .body-content{
     padding: 6%;border-top:1px solid #b5b5b5;
@@ -81,13 +81,13 @@
     padding: 2%;border-bottom: 1px solid #b5b5b5;
 }
 .done-button-container{
-    border:2px dotted #32BDD2;display: flex;flex-direction: row;border-radius: 25px;text-align: end;
+    display: flex;flex-direction: row;text-align: end;
 }
 .footer{
     display: flex;flex-direction: row;justify-content: space-between;border-top:1px solid #b5b5b5;padding: 2%;align-items: center;
 }
 .done-button{
-    padding: 25%;color: #FFFFFF;background-color: #32BDD2;border-radius: 25px;border: 0px;
+    padding: 20%;color: #FFFFFF;background-color: #32BDD2;border-radius: 25px;border: 0px;
 }
 .Search-content{
     display: flex;flex-direction: row;border: 1px solid #B5B5B5;border-radius: 25px;align-items: center;margin: 4% 0% 5% 0%;
@@ -105,3 +105,10 @@
     text-align:start;width:30%
 }
 .width-fifty{width: 50%}
+.not-selected-person-content{
+    align-self:center;border-top:2px dashed #32BDD2;border-left: 2px dashed #32BDD2;border-bottom: 2px dashed #32BDD2;border-radius: 25px 0px 0px 25px;
+    width:85%;padding: 2%;padding: 2% 10% 2% 2%;margin-right: -5%;
+}
+.button-content{
+    width: 15%;
+}
