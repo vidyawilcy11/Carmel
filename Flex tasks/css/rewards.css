@@ -1,0 +1,138 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* font family */
+@font-face {
+    font-family: 'Anton';
+    src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto Black';
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'Lato Light';
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: 'Lato Regular';
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'Lato Bold';
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Lato Black';
+    src: url(../fonts/Lato/Lato-Black.ttf);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-center-column{
+    display: flex;flex-direction: column;align-items: center;
+}
+
+.header-container{
+    display: flex;flex-direction: row;padding: 1%;
+    background-color: #FFFFFF;align-items: center;
+    box-shadow: 2px 2px 1px 1px rgb(230, 228, 228);
+}
+.profile-image{
+    width:50px;height: 50px;border-radius: 50%;
+}
+
+.bodycontent{
+    margin: 2%;box-shadow: 0 0 6px #B5B5B5;
+    background-color: #FFFFFF
+}
+.main-container{
+    background-color: #E5E5E5;
+}
+.rewards-content{
+    display:flex;flex-direction: row;align-items: center;justify-content: space-between;padding: 2%;
+}
+.rewards-body-container{
+    display: flex;flex-direction: row;
+}
+.left-content-container{
+    width:40%;
+}
+.right-content-container{
+    width: 60%;padding: 2%;
+}
+.lc-1a{
+    display: flex;flex-direction: row;align-items: center;padding: 3%;
+}
+.zomato-vouchers{
+    padding: 5%;
+}
+.zomato-voucher{
+    text-align: center;margin-top: 5%;margin-bottom: 3%;
+}
+.vouchers{
+    padding: 5%;background-color: #EEEEEE;
+}
+.events-vouchers{
+    padding: 5%;background-color: #EEEEEE;
+}
+.show-more-container{
+    display: flex;flex-direction: row;align-items: center;justify-content: center;padding: 5%;
+}
+.rc-1b{
+    border: 1px solid #B5B5B5;display: flex;flex-direction: row;width: 15%;
+}
+.lc-1{
+    border-right: 0.5px solid #CCCCCC;
+    border-bottom: 0.5px solid #CCCCCC;
+}
+.lc-3{
+    border-right: 0.5px solid #CCCCCC;
+    border-top: 0.5px solid #CCCCCC;
+}
+.year-dropdown{
+    display: flex;flex-direction: row;padding: 5%;
+}
+.month-list{
+    display: flex;flex-direction: row;align-items: center;justify-content: space-between;padding-bottom: 1%;
+}
+.rc-2b{
+    display: flex;flex-direction: row;justify-content: space-between;width:60%;margin: auto;
+}
+.redeem-container{
+    background-color: #EEEEEE;
+    width: 60%;
+    padding: 3%;
+    margin: auto;
+    margin-top: 5%;
+}
