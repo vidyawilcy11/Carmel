@@ -64,20 +64,20 @@
 }
 
 .header-container{
-    display: flex;flex-direction: row;padding: 1%;
+    display: flex;flex-direction: row;padding: 0.5%;
     background-color: #FFFFFF;align-items: center;
-    box-shadow: 2px 2px 1px 1px rgb(230, 228, 228);
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.29)
 }
 .profile-image{
     width:50px;height: 50px;border-radius: 50%;
 }
 
-.bodycontent{
+.body-container{
     margin: 2%;box-shadow: 0 0 6px #B5B5B5;
-    background-color: #FFFFFF
+    background-color: #FFFFFF;display: flex;flex-direction: row;
 }
 .main-container{
-    background-color: #B5B5B5;
+    background-color: #EEEEEE;
 }
 .dotted-line {
     border-left: 3px dotted #D3D3D3;
@@ -93,4 +93,65 @@ height: absolute;
 position: absolute;
 text-align: center;
 padding: 0.5%;
+}
+.right-container{
+    padding: 3% 2% 3% 2%;
+    background-color: #FCFCFC;
+}
+.evidence-witness-container{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 6%;
+}
+.file-name-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+}
+.file-name{
+    border-bottom: 1px solid #747474;
+}
+.error-container{
+    background-color: #f0f0f0;border-radius: 25px;width: 18%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    justify-content: center;
+}
+.submit-button-container{
+    display: flex;flex-direction: row;align-items: center;
+}
+.submit-button{
+    border:0px;background-color: #32bdd2;width:80%;padding: 7%;border-radius: 25px;color: #FFFFFF;
+}
+.people-name{
+    margin-top:1%;margin-bottom:0.5%;
+}
+.address{
+    width:15%;
+}
+.dotted-line {
+    border-left: 3px dotted #D3D3D3;
+    height: 80px;
+    margin-left: 25%;
+}
+.circle{
+width: 2%;
+background-color: #FFFFFF;
+border-radius: 50%;
+border: 1px solid #D3D3D3;
+height: absolute;
+position: absolute;
+text-align: center;
+padding: 0.5%;
+}
+.evidence-witness-content{
+    background: #f0f0f0; padding: 1%;
+    width: 12%;
+    text-align: center;
+    border-radius: 20px 0px 0px 0px;
+                                           
+}
+.file-content{
+    border:1px solid #CCCCCC;
 }
