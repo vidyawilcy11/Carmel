@@ -1,0 +1,189 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* font family */
+@font-face {
+    font-family: 'Anton';
+    src: url(../fonts/Anton/Anton-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto Light';
+    src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto Regular';
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: 'Roboto Bold';
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: 'Roboto Black';
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'Lato Light';
+    src: url(../fonts/Lato/Lato-Light.ttf);
+}
+@font-face {
+    font-family: 'Lato Regular';
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'Lato Bold';
+    src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+@font-face {
+    font-family: 'Lato Black';
+    src: url(../fonts/Lato/Lato-Black.ttf);
+}
+
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.flex-center-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.flex-center-column{
+    display: flex;flex-direction: column;align-items: center;
+}
+
+.header-container{
+    display: flex;flex-direction: row;padding: 0.5%;
+    background-color: #FFFFFF;align-items: center;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.29)
+}
+.profile-image{
+    width:50px;height: 50px;border-radius: 50%;
+}
+
+.body-container{
+    margin: 2%;box-shadow: 0 0 6px #B5B5B5;
+    background-color: #FFFFFF;display: flex;flex-direction: row;
+}
+.main-container{
+    background-color: #EEEEEE;
+}
+.dotted-line {
+    border-left: 3px dotted #D3D3D3;
+    height: 70px;
+    margin-left: 18%;
+}
+.circle{
+    width: 2%;
+background-color: #FFFFFF;
+border-radius: 50%;
+border: 1px solid #D3D3D3;
+height: absolute;
+position: absolute;
+text-align: center;
+padding: 0.5%;
+}
+.right-container{
+    padding: 3% 2% 3% 2%;
+    background-color: #FCFCFC;
+}
+.add-charge-container{
+border: 3px dotted
+#B5B5B5;
+padding-top: 3%;
+padding-bottom: 3%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.charge-2-container{
+    display: flex;align-items: center;background-color:#F0F0F0;
+    border: 1px solid #F0F0F0;padding: 2%;
+}
+.edit-container{
+border: 1px solid#D5E2E8;background:#FAFCFD;
+padding: 2%;position: relative;padding: 3%;
+padding-top: 3%;
+padding-top: 5%;
+margin-bottom: 5%;
+}
+.charges-list {
+    border: 1px solid 
+    #F0F0F0;
+    margin-bottom: 5%;
+}
+.browse-add-container{
+    width: 90%;margin: auto;padding-top: 3%;padding-bottom: 3%;
+}
+.evidence-container{
+width: 100%;
+background-color:lightyellow;
+padding: 3%;
+}
+.browse-drop-a-file-container{
+    display: flex;
+}
+.drop-file-container{
+   width:50%;display: flex;flex-direction: column;align-items: center;justify-content: center;background-color:#32BDD2;
+}
+.select-file-container{
+    width:50%;background-color:
+    white;
+    border: 1px solid
+    #DFEBEF;
+    padding: 1%;
+}
+.drop-file{
+    text-align: center;border: 2px dashed#fff;padding-left: 30%;padding-right: 30%;padding-bottom: 6%;padding-top: 4%;
+}
+.file{
+    display: flex;justify-content: space-between;align-content: center;padding: 2%;border-bottom: 1px solid#F3F5B3;
+}
+.file1{
+    display: flex;justify-content: space-between;align-content: center;padding: 2%;
+}
+.witness-container{
+    border: 1px solid #F3F5B3;
+}
+.witness-add-container{
+    background-color: lightyellow;padding: 3%;
+}
+.add{
+    display: flex;
+}
+.edit-delete-container{
+    display: flex;align-items: center;justify-content: space-between;padding: 2%;
+}
+.width-ten{
+    width:10%;
+}
+.next-button{
+    display: flex;justify-content: center;
+    align-items: center;background-color: #32BDD2;padding: 5%;border-radius: 25px;
+}
+.delete-button{
+    padding: 1%;
+border: 1px solid
+#B5B5B5;
+BORDER-RADIUS: 50%;
+}
+.edit-button{
+    text-align: center;padding: 1.5%;border-radius: 50%;border: 1px solid#B5B5B5;
+}
+.edit-delete-button{
+    text-align: center;align-self: center;border: 1px solid#b5b5b5;padding: 1.5%;border-radius: 50%;margin-left:3%;
+}
+.error-container{
+    align-items:center;justify-content:center;border-radius:25px;background-color: #FFFFFF;padding: 2%;
+}
