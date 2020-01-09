@@ -77,20 +77,28 @@
     background-color: #FFFFFF
 }
 .main-container{
-    background-color: #B5B5B5;
+    background-color: #EEEEEE;
 }
 .dotted-line {
     border-left: 3px dotted #D3D3D3;
     height: 70px;
-    /* margin-left: 25%; */
+    margin-left: 5%;
 }
 .circle{
-    width: 2%;
+    
 background-color: #FFFFFF;
 border-radius: 50%;
 border: 1px solid #D3D3D3;
 height: absolute;
 position: absolute;
 text-align: center;
-padding: 0.5%;
+padding: 2%;
+transform: rotate(270deg);
+width:10%;
+}
+.more-details-container{
+    justify-content: flex-end;border-top:1px solid #CCCCCC;padding: 1% 2% 1% 0%;
+}
+.select-container{
+    justify-content: center;border-radius: 20px;width: 20%;background-color: #FFFFFF;padding: 1%;width: 25%;
 }

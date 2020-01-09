@@ -62,10 +62,7 @@
 }
 
 .left-container{
-    width:60%;box-shadow: 0 3px 6px rgba(0.0,0.0,0.0,0.29);border-radius: 15px 0px 0px 15px;height:20%;background-color: #FFFFFF;
-}
-.left-arrow-container{
-    background-color: #245070;border-radius: 15px 0px 0px 0px;text-align: center;height: 15%;padding-top:25%;
+    width:60%;box-shadow: 0 3px 6px rgba(0.0,0.0,0.0,0.29);border-radius: 15px 0px 0px 15px;background-color: #FFFFFF;margin-top: 80%;
 }
 .left-content-images{
     width:50%;
@@ -80,11 +77,8 @@
 .submit-button{
     border:0px;border-radius: 25px;background-color: #32BDD2;color: #FFFFFF;padding: 0.5%;width: 6%;
 }
-.left-container{
-    width:60%;box-shadow: 0 3px 6px rgba(0.0,0.0,0.0,0.29);border-radius: 15px 0px 0px 15px;height:20%;background-color: #FFFFFF;
-}
 .left-arrow-container{
-    background-color: #245070;border-radius: 15px 0px 0px 0px;text-align: center;height: 15%;padding-top:25%;
+    background-color: #245070;border-radius: 15px 0px 0px 0px;text-align: center;padding: 20%;
 }
 .body-container{
     display: grid;grid-template-columns: 5% 95%;margin: 2%;
@@ -111,4 +105,10 @@ border:1px solid #EDEAEA;width: 70%;
 }
 .profile-image{
     width:50px;height:50px;border-radius: 50%;
+}
+.inbox-content-container{
+    text-align: center;border-right: 5px solid #E6AF2E;margin-top: 20%;padding: 0% 10% 0% 10%;
+ }
+ .inbox-container{
+    text-align: center;padding: 20%;
 }

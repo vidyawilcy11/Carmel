@@ -71,8 +71,6 @@
 .profile-image{
     width:50px;height: 50px;border-radius: 50%;
 }
-
-
 .main-container{
     background-color: #EEEEEE;
 }
@@ -100,16 +98,16 @@
     display:flex;align-items:flex-start;
 }
 .sort-content{
-    display: flex;align-items: center;
+    display: flex;align-items: center;padding-top: 5%;
 }
 .radio-check-container{
     display: flex;
 }
 .date-container{
-    display: flex;
+    display: flex;margin-bottom: 5%;
 }
 .year-container{
-    background-color:#B5B5B5;padding: 15% 5% 5% 5%;width: 90%;margin: auto;
+    background-color:#F0F0F0;padding: 12% 5% 5% 5%;width: 90%;margin: auto;
 }
 .january-container{
     display: flex;padding-bottom: 10%;
@@ -136,25 +134,8 @@
     margin-bottom: 3%;
 }
 .days{
-width:14.2%;border-right: 1px solid #CCCCCC;padding: 2%;
+width:14.2%;border-right: 1px solid #CCCCCC;padding: 2%;text-align: center;
 }
 .day{
     padding: 2%;
 }
-/* .dotted-line {
-    border-left: 3px dotted #D3D3D3;
-    height: 70px;
-    margin-left: 18%;
-}
-.circle{
-    width: 2%;
-background-color: #FFFFFF;
-border-radius: 50%;
-border: 1px solid #D3D3D3;
-height: absolute;
-position: absolute;
-text-align: center;
-padding: 0.5%;
-} */
-
-

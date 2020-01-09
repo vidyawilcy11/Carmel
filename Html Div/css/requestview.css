@@ -46,13 +46,13 @@
     src: url(../fonts/Lato/Lato-Black.ttf);
 }
 .header{
-    display: grid;grid-template-columns: 88fr 4fr 4fr 4fr;background-color: #FFFFFF;box-shadow: 0 0 4px rgba(0,0,0,0.29);
+    display: grid;grid-template-columns: 88% 4% 7% 1%;background-color: #FFFFFF;box-shadow: 0 0 4px rgba(0,0,0,0.29);padding: 0.5%;
 }
 .main-content-container{
     background-color: #F6F8F9;
 }
 .body-container{
-    display: grid;grid-template-columns: 5fr 95fr;margin: 2%;
+    display: grid;grid-template-columns: 5% 95%;margin: 2%;
 }
 .right-container{
     box-shadow: 0 0 4px rgba(0.0,0.0,0.0,0.29);background-color: #FFFFFF;
@@ -61,21 +61,30 @@
     background-color: #245070;padding: 3%;
 }
 .submitted-container{
-    display: grid;grid-template-columns: 40fr 40fr 20fr;background-color: #FFFFFF;border-radius: 29px;padding: 1%;
+    display: grid;grid-template-columns: 40% 40% 20%;background-color: #FFFFFF;border-radius: 29px;padding: 1%;
     box-shadow: 0px 3px 6px #A3A3C45A;width: 80%;margin: auto;position: absolute;
 }
 .left-container{
-    width:60%;box-shadow: 0 3px 6px rgba(0.0,0.0,0.0,0.29);border-radius: 15px 0px 0px 15px;height:20%;background-color: #FFFFFF;
+    width:60%;box-shadow: 0 3px 6px rgba(0.0,0.0,0.0,0.29);border-radius: 15px 0px 0px 15px;background-color: #FFFFFF;margin-top: 80%;
+}
+.profile-image{
+    width:50px;height:50px;border-radius: 50%;
 }
 .left-arrow-container{
-    background-color: #245070;border-radius: 15px 0px 0px 0px;text-align: center;height: 15%;padding-top:25%;
+    background-color: #245070;border-radius: 15px 0px 0px 0px;text-align: center;padding: 20%;
 }
 .list-items-container{
-   display: grid;grid-template-columns: 40fr 30fr 20fr 10fr;margin-left: 2%;padding-bottom: 2%;padding-top: 2%;margin-right: 2%;
+   display: grid;grid-template-columns: 40% 30% 20% 10%;margin-left: 2%;padding-bottom: 2%;padding-top: 2%;margin-right: 2%;
 }
 .attachments-container{
     padding-top: 5%;padding-left: 2%;padding-bottom: 5%;
 }
 .left-content-images{
-    width:50%;
+    width:80%;
+}
+.inbox-container{
+    text-align: center;padding: 20%;
+}
+.inbox-content-container{
+   text-align: center;border-right: 5px solid #E6AF2E;margin-top: 20%;padding: 0% 10% 0% 10%;
 }

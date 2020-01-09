@@ -14,6 +14,22 @@
             margin: 0%;
             box-sizing: border-box;
         }
+
+        .dotted-line {
+            border-left: 3px dotted #D3D3D3;
+            height: 70px;
+            margin-left: 25%;
+        }
+
+        .circle {
+            width: 2%;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            border: 1px solid #D3D3D3;
+            position: absolute;
+            text-align: center;
+            padding: 0.5%;
+        }
     </style>
 </head>
 
@@ -40,22 +56,38 @@
                 <div class="body-container" style="border-bottom: 0.5px solid #B5B5B5;display: grid;grid-template-columns: auto auto auto">
                     <div style="background-color:#FFFFFF;">
                         <div class="left-container">
-                            <div style="transform:rotate(270deg);margin-top: 50%;">
+                            <div style="transform:rotate(270deg);margin-top: 60%;">
                                 <span>REQUISITION</span>
                             </div>
-                            <div>
-                                <div class="navigation-circle">
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
-                                    <div></div>
+                            <div style="margin-left: 30%;
+                            margin-top: 70%;">
+                                <div class="circle">
+                                    <span style="color:black;">1</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle">
+                                    <span class="text" style="color:black;">2</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle">
+                                    <span class="text" style="color:black;">3</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle">
+                                    <span class="text" style="color:black;">4</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle">
+                                    <span class="text" style="color:black;">5</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle" style="background-color:#32BDD2;">
+                                    <span class="text" style="color:#FFFFFF;">6</span>
                                 </div>
                             </div>
                         </div>
