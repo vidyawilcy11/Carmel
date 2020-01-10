@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>semicircle</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .body-container {
+            height: 50%;
+            background-color: white;
+            /* box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.29); */
+            box-shadow: 5px 0 5px -5px rgba(0, 0, 0, 0.7), -5px 0 5px -5px rgba(0, 0, 0, 0.7);
+        }
+
+        .bottom-container {
+            border-top: 1px solid #000000;
+        }
+
+        .rotated-half-circle {
+            width: 70px;
+            height: 70px;
+            border: 1px solid #000000;
+            border-radius: 50%;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            transform: rotate(45deg);
+            position: absolute;
+            top: 18.5%;
+        }
+
+        .dropdown-container {
+            position: absolute;
+            top: 23.5%;
+            left: 49%;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="height:40vh;margin: 2%;">
+        <div class="body-container"></div>
+        <div style="display:grid;grid-template-columns: 46% 7% 47%;">
+            <div class="bottom-container"></div>
+            <div>
+                <div class="rotated-half-circle">
+                </div>
+                <img src="../images/158.png" alt="" width="10" height="10" class="dropdown-container">
+            </div>
+            <div class="bottom-container"></div>
+        </div>
+    </div>
+</body>
+
+</html>

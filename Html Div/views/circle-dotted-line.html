@@ -11,26 +11,27 @@
         }
 
         .dotted-line {
-            border-left: 6px dotted #D3D3D3;
-            ;
+            border-left: 6px dotted #000000;
             height: 100px;
-            margin-left: 15%;
+            position: relative;
+            left: 20%;
         }
 
         .circle {
-            width: 2%;
             background-color: #FFFFFF;
             border-radius: 50%;
-            border: 1px solid #D3D3D3;
+            border: 1px solid #000000;
             padding: 1%;
             position: absolute;
+            z-index: 1;
         }
     </style>
 </head>
 
 <body>
     <div style="width:5%;">
-        <div class="circle">
+        <div>
+            <div class="circle"></div>
         </div>
 
         <div class="dotted-line"></div>
