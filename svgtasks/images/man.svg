@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Man-sitting</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+
+        .fill-color {
+            fill: white;
+            stroke: black;
+        }
+    </style>
+</head>
+
+<body>
+    <svg viewbox="0 0 439 531">
+        <path d="M 205 391 L 151 438 210 451 223 449 270 447 317 445 341 443 337 404 340 379 342 334 335 315 287 312"
+            stroke="black" fill="transparent"></path>
+        <path d="M 204 321 L 280 329 292 347 293 364 315 381 337 404" stroke="black" fill="transparent"></path>
+        <path d="M 210 451 L 242 423 282 422 270 447" stroke="black" fill="transparent"></path>
+        <path d="M 280 329 L 294 326 335 315" stroke="black"></path>
+        <path d="M 280 329 L 281 355 281 388 282 422 223 449 242 423" stroke="black" fill="transparent"></path>
+        <path d="M 282 422 L 316 395 341 443 317 434 282 422" stroke="black" fill="transparent"></path>
+        <line x1="317" y1="445" x2="316" y2="395" stroke="black"></line>
+        <line x1="281" y1="388" x2="293" y2="383" stroke="black"></line>
+        <line x1="293" y1="364" x2="293" y2="383" stroke="black"></line>
+        <line x1="331" y1="353" x2="340" y2="379" stroke="black"></line>
+        <path d="M 292 347 L 315 343 293 364" stroke="black" fill="transparent"></path>
+        <path d="M 251 386 L 281 388 242 423" stroke="black" fill="transparent"></path>
+        <path d="M 281 355 L 293 383 316 395 337 404" stroke="black" fill="transparent"></path>
+        <path d="M 294 326 L 315 343 315 381 331 353 342 334 315 343 335 315" stroke="black" fill="transparent"></path>
+
+        <path d="M 121 126 L 119 106 126 90 132 87 141 82 153 81 167 87 175 99 181 104 205 110 218 106 245 114 297 154 309 194 303 232 309 242 316 276 307 298 294 305 287 312 282 314 263 322 240 319 218 318 200 311 204 321 213 342 218 351 237 374 251 386 253 395 251 404 246 405 235 411 223 425 220 433 206 438 201 436 193 436 189 434 186 434 184 426 187 422 207 414 208 395 205 391 195 368 158 333 147 322 135 318 122 305 124 282 135 269 120 273 119 284 119 296 116 296 113 292 109 303 114 309 116 313 113 313 114 117 113 321 109 321 104 315 107 321 100 315 97 301 102 263 110 252 117 250 123 248 137 242 142 240 154 236 170 238 151 218 143 204 132 192 129 183 133 172 141 165 146 158 142 158 140 162 136 152 136 149 132 146 126 148 121 126"
+            class="fill-color" error></path>
+        <path d="M 151 154 L 160 149 170 147 170 147 170 150 166 153 176 154 172 158 167 161 174 161 173 166 163 167 161 169 169 170 169 173 160 174 152 186 163 197 172 206 184 210 186 183 199 159 192 150 176 145 157 130 157 138 151 154"
+            class="fill-color"></path>
+    </svg>
+</body>
+
+</html>
