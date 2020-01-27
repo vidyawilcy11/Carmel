@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            our-approach
+        </title>
+        <style>
+            *{padding:0;margin:0;box-sizing:border-box}
+        </style>
+    </head>
+    <body>
+        <svg viewbox="0 0 439 531" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="222" cy="255" r="126" stroke="#939292" fill="transparent"/>
+            <circle cx="222" cy="255" r="113" stroke="black" fill="transparent"/>
+            <line x1="222" y1="125" x2="222" y2="142" stroke="black"/>
+            <line x1="89" y1="255" x2="109" y2="255" stroke="black"/>
+            <line x1="222" y1="385" x2="222" y2="368" stroke="black"/>
+            <line x1="355" y1="255" x2="335" y2="255" stroke="black"/>
+            <polygon points="222 207 268 255 268 255 222 302 222 302 178 255 178 255 222 207" stroke="black" fill="transparent"/>
+            <path d="M 178 255 L 222 255 268 255" stroke="black"/>
+            <path d="M 222 207  L 222 255 222 302" stroke="black"/>
+            <polygon points="222 207 272 196 272 196 268 255 268 255 272 314 272 314 222 302 222 302 171 314 171 314 178 255 178 255 171 195 171 195 222 207 222 207" stroke="black" fill="transparent"/>
+            <polygon points="222 172 272 196 272 196 305 255 305 255 272 314 272 314 222 338 222 338 171 314 171 314 139 255 139 255 171 195 171 195 222 172" stroke="black" fill="transparent"/>
+            <line x1="222" y1="172" x2="222" y2="207" stroke="black"/>
+            <line x1="305" y1="255" x2="268" y2="255" stroke="black"/>
+            <line x1="222" y1="338" x2="222" y2="302" stroke="black"/>
+            <line x1="139" y1="255" x2="178" y2="255" stroke="black"/>
+            <polygon points="222 172 266 165 266 165 272 196 272 196 305 200 305 200 305 255 305 255 305 310 305 310 272 314 272 314 265 346 265 346 222 338 222 338 177 345 177 345 171 314 171 314 138 310 138 310 139 255 139 255 138 201 138 201 171 194 171 194 177 165 177 165 222 172" stroke="black" fill="transparent"/>
+            <polygon points="222 153 266 165 266 165 305 200 305 200 323 255 323 255 305 310 305 310 265 346 265 346 222 357 222 357 177 345 177 345 138 310 138 310 121 255 121 255 138 201 138 201 177 165 177 165 222 153" stroke="black" fill="transparent"/>
+            <line x1="222" y1="153" x2="222" y2="172" stroke="black"/>
+            <line x1="323" y1="255" x2="305" y2="255" stroke="black"/>
+            <line x1="222" y1="357" x2="222" y2="338" stroke="black"/>
+            <line x1="121" y1="255" x2="139" y2="255" stroke="black"/>
+            <polygon points="222 153 260 161 260 161 293 182 293 182 315 216 315 216 323 255 323 255 316 294 316 294 293 328 293 328 265 346 265 346 260 349 260 349 222 357 222 357 183 349 183 349 177 345 177 345 150 328 150 328 128 294 128 294 121 255 121 255 128 216 128 216 151 182 151 182 177 165 177 165 183 161 183 161 222 153" stroke="black" fill="transparent"/>
+            <circle cx="222" cy="255" r="5"/>
+            <circle cx="222" cy="207" r="4"/>
+            <circle cx="268" cy="255" r="4"/>
+            <circle cx="222" cy="302" r="4"/>
+            <circle cx="178" cy="255" r="4"/>
+            <circle cx="222" cy="172" r="3"/>
+            <circle cx="272" cy="196" r="3"/>
+            <circle cx="305" cy="255" r="3"/>
+            <circle cx="272" cy="314" r="3"/>
+            <circle cx="222" cy="338" r="3"/>
+            <circle cx="171" cy="314" r="3"/>
+            <circle cx="139" cy="255" r="3"/>
+            <circle cx="171" cy="195" r="3"/>
+            <circle cx="222" cy="153" r="2"/>
+            <circle cx="266" cy="165" r="2"/>
+            <circle cx="222" cy="357" r="2"/>
+            <circle cx="177" cy="165" r="2"/>
+            <circle cx="260" cy="161" r="1.5"/>
+            <circle cx="293" cy="182" r="1.5"/>
+            <circle cx="305" cy="200" r="1.5"/>
+            <circle cx="315" cy="216" r="1.5"/>
+            <circle cx="323" cy="255" r="1.5"/>
+            <circle cx="316" cy="294" r="1.5"/>
+            <circle cx="305" cy="310" r="1.5"/>
+            <circle cx="293" cy="328" r="1.5"/>
+            <circle cx="265" cy="346" r="1.5"/>
+            <circle cx="260" cy="349" r="1.5"/>
+            <circle cx="183" cy="349" r="1.5"/>
+            <circle cx="177" cy="345" r="1.5"/>
+            <circle cx="150" cy="328" r="1.5"/>
+            <circle cx="138" cy="310" r="1.5"/>
+            <circle cx="128" cy="294" r="1.5"/>
+            <circle cx="121" cy="255" r="1.5"/>
+            <circle cx="128" cy="216" r="1.5"/>
+            <circle cx="138" cy="201" r="1.5"/>
+            <circle cx="151" cy="182" r="1.5"/>
+            <circle cx="183" cy="161" r="1.5"/>
+            <circle cx="222" cy="125" r="1"/>
+            <circle cx="355" cy="255" r="1"/>
+            <circle cx="222" cy="385" r="1"/>
+            <circle cx="89" cy="255" r="1"/>
+        </svg>
+    </body>
+</html>

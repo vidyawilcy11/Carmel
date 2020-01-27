@@ -16,10 +16,15 @@
     <svg viewbox="0 0 549 717" xmlns="http://www.w3.org/2000/svg">
         <path d="M 120 149 L 139 93 225 52 304 88 319 147 297 213 239 259 213 307 213 307 213 378" stroke="black" fill="transparent"></path>
         <path d="M 120 149 L 149 101 225 52 291 94 319 147 287 205 239 259 201 304 213 378" stroke="black" fill="transparent"></path>
-        <path d="M 213 417 L 182 454 216 481 242 446 213 417" stroke="black" fill="transparent"></path>
+
+        <line x1="245" y1="447" x2="213" y2="417" stroke="black"></line>
+        <line x1="216" y1="481" x2="245" y2="447" stroke="black"></line>
+        <line x1="179" y1="450" x2="216" y2="481" stroke="black"></line>
+        <line x1="213" y1="417" x2="180" y2="453" stroke="black"></line>
         <line x1="213" y1="417" x2="179" y2="450" stroke="black"></line>
-        <line x1="182" y1="454" x2="213" y2="483" stroke="black"></line>
-        <line x1="216" y1="481" x2="247" y2="450" stroke="black"></line>
+        <line x1="179" y1="450" x2="213" y2="483" stroke="black"></line>
+        <line x1="213" y1="483" x2="247" y2="450" stroke="black"></line>
+
         <circle cx="120" cy="149" r="5" fill="black"></circle>
         <circle cx="139" cy="93" r="3" fill="black"></circle>
         <circle cx="149" cy="101" r="3" fill="black"></circle>
