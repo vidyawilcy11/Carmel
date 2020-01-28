@@ -1,48 +1,28 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>Disruptive-Ideation</title>
-    <style>
-        * {
-            padding: 0px;
-            margin: 0px;
-            box-sizing: border-box;
-        }
-    </style>
-</head>
-
-<body>
-    <svg viewbox="0 0 549 717" xmlns="http://www.w3.org/2000/svg">
-        <path d="M 120 149 L 139 93 225 52 304 88 319 147 297 213 239 259 213 307 213 307 213 378" stroke="black" fill="transparent"></path>
-        <path d="M 120 149 L 149 101 225 52 291 94 319 147 287 205 239 259 201 304 213 378" stroke="black" fill="transparent"></path>
-
-        <line x1="245" y1="447" x2="213" y2="417" stroke="black"></line>
-        <line x1="216" y1="481" x2="245" y2="447" stroke="black"></line>
-        <line x1="179" y1="450" x2="216" y2="481" stroke="black"></line>
-        <line x1="213" y1="417" x2="180" y2="453" stroke="black"></line>
-        <line x1="213" y1="417" x2="179" y2="450" stroke="black"></line>
-        <line x1="179" y1="450" x2="213" y2="483" stroke="black"></line>
-        <line x1="213" y1="483" x2="247" y2="450" stroke="black"></line>
-
-        <circle cx="120" cy="149" r="5" fill="black"></circle>
-        <circle cx="139" cy="93" r="3" fill="black"></circle>
-        <circle cx="149" cy="101" r="3" fill="black"></circle>
-        <circle cx="225" cy="52" r="5" fill="black"></circle>
-        <circle cx="304" cy="88" r="3" fill="black"></circle>
-        <circle cx="291" cy="94" r="3" fill="black"></circle>
-        <circle cx="319" cy="147" r="5" fill="black"></circle>
-        <circle cx="287" cy="205" r="3" fill="black"></circle>
-        <circle cx="297" cy="213" r="3" fill="black"></circle>
-        <circle cx="239" cy="259" r="5" fill="black"></circle>
-        <circle cx="201" cy="304" r="3" fill="black"></circle>
-        <circle cx="213" cy="307" r="3" fill="black"></circle>
-        <circle cx="213" cy="378" r="3" fill="black"></circle>
-        <circle cx="213" cy="417" r="3" fill="black"></circle>
-        <circle cx="179" cy="450" r="3" fill="black"></circle>
-        <circle cx="213" cy="483" r="3" fill="black"></circle>
-        <circle cx="247" cy="450" r="3" fill="black"></circle>
-    </svg>
-</body>
-
-</html>
+<svg viewbox="0 0 549 717" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 120 149 L 139 93 225 52 304 88 319 147 297 213 239 259 213 307 213 307 213 378" stroke="black" fill="transparent"/>
+    <path d="M 120 149 L 149 101 225 52 291 94 319 147 287 205 239 259 201 304 213 378" stroke="black" fill="transparent"/>
+    <line x1="245" y1="447" x2="213" y2="417" stroke="black"/>
+    <line x1="216" y1="481" x2="245" y2="447" stroke="black"/>
+    <line x1="179" y1="450" x2="216" y2="481" stroke="black"/>
+    <line x1="213" y1="417" x2="180" y2="453" stroke="black"/>
+    <line x1="213" y1="417" x2="179" y2="450" stroke="black"/>
+    <line x1="179" y1="450" x2="213" y2="483" stroke="black"/>
+    <line x1="213" y1="483" x2="247" y2="450" stroke="black"/>
+    <circle cx="120" cy="149" r="5" fill="black"/>
+    <circle cx="139" cy="93" r="3" fill="black"/>
+    <circle cx="149" cy="101" r="3" fill="black"/>
+    <circle cx="225" cy="52" r="5" fill="black"/>
+    <circle cx="304" cy="88" r="3" fill="black"/>
+    <circle cx="291" cy="94" r="3" fill="black"/>
+    <circle cx="319" cy="147" r="5" fill="black"/>
+    <circle cx="287" cy="205" r="3" fill="black"/>
+    <circle cx="297" cy="213" r="3" fill="black"/>
+    <circle cx="239" cy="259" r="5" fill="black"/>
+    <circle cx="201" cy="304" r="3" fill="black"/>
+    <circle cx="213" cy="307" r="3" fill="black"/>
+    <circle cx="213" cy="378" r="3" fill="black"/>
+    <circle cx="213" cy="417" r="3" fill="black"/>
+    <circle cx="179" cy="450" r="3" fill="black"/>
+    <circle cx="213" cy="483" r="3" fill="black"/>
+    <circle cx="247" cy="450" r="3" fill="black"/>
+</svg>
