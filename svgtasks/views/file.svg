@@ -1,0 +1,6 @@
+<svg viewbox="0 0 257 257" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 47 11 L 159 11 210 62 210 246 47 246 47 11" stroke="black" fill="white"/>
+    <path d="M 155 11 L 155 67 210 67 210 67" stroke="black" fill="#eaf2f3"/>
+    <line x1="82" y1="149" x2="163" y2="149" stroke="black" stroke-width="4"/>
+    <line x1="82" y1="123" x2="163 " y2="123" stroke="black" stroke-width="4"/>
+</svg>
