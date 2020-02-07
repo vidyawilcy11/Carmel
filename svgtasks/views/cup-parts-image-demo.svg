@@ -1,0 +1,21 @@
+<svg viewbox="0 0 370 423" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <path d="M 104 250 C 133 238 227 238 258 249" stroke="black" fill="black"/>
+        <path d="M 258 249 C 262 250 262 253 258 254" stroke="black" fill="black"/>
+        <path d="M 258 254 C 234 268 137 269 117 259" stroke="black" fill="black"/>
+        <path d="M 104 250 C 119 247 223 245 238 251" stroke="black" fill="white"/>
+        <path d="M 117 259 C 133 263 225 264 238 258" stroke="black" fill="white"/>
+        <path d="M 238 251 C 249 253 249 255 238 258" stroke="black" fill="white"/>
+<!--fill color-->
+        <path d="M 117 259 L 238 258 238 255 117 259" stroke="white" fill="white"/>
+        <path d="M 246 255 L 256 255 258 249 233 249" stroke="black" fill="black"/>
+        <line x1="256" x2="259" y1="250" y2="253" stroke="black" stroke-width="5"/>
+    </g>
+    <g>
+        <path d="M 98 337 C 59 367 72 382 139 393" stroke="black" fill="black"/>
+        <path d="M 139 393 C 218 399 234 397 288 368" stroke="black" fill="black"/>
+        <path d="M 98 337 C 64 367 75 383 140 389" stroke="black" fill="white"/>
+        <path d="M 140 389 C 218 396 233 394 288 368" stroke="black" fill="white"/>
+    </g>
+<!--<path d="M 98 337 C 28 379 223 417 288 368" stroke="black" fill="black" /> <path d="M 98 337 C 38 373 234 410 288 368" stroke="black" fill="white" />-->
+</svg>
