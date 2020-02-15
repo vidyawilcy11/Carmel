@@ -26,8 +26,7 @@
         <path d="M 104 250 C 119 242 223 241 238.5 252.1" stroke="black" fill="white"></path>
         <path d="M 117 259 C 133 264 225 267 238 253" stroke="black" fill="white"></path>
         <path d="M 237 251 C 249 253 249 252 238 256" stroke="black" fill="white" stroke-width="8"></path>
-        <!--fill color-->
-        <!-- <path d="M 117 259 L 238 253 238 253 117 257" stroke="white" fill="white"/> -->
+        
         <g>
             <path d="M 98 337 C 59 367 72 382 139 393" stroke="black" fill="black"></path>
             <path d="M 139 393 C 218 399 234 397 288 368" stroke="black" fill="black"></path>
@@ -52,7 +51,6 @@
             <path d="M 236 275 C 236 297 228 313 210 338" stroke="black" fill="white"></path>
             <line x1="236" y1="275" x2="240" y2="274" stroke="black"></line>
 
-            <!-- fill color -->
             <path d="M 265 263 L 270 263 254 324 247 324 265 263" fill="black" stroke="black"></path>
             <path d="M 183 368 C 181 377 169 367.5 169 368" fill="black" stroke="black"></path>
             <path d="M 250 314 L 255 314 254 324 247 324 250 314" fill="black" stroke="black"></path>
