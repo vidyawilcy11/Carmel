@@ -1,10 +1,10 @@
-<svg viewbox="0 0 257 256" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="125" cy="125.5" r="122" stroke="black" fill="lightblue" />
-    <circle cx="140" cy="107" r="52" stroke="white" fill="white" />
-    <circle cx="140" cy="107" r="46" stroke="white" fill="lightblue" />
-    <line x1="106" y1="144" x2="61" y2="189" stroke="white" />
-    <line x1="110" y1="148" x2="65" y2="193" stroke="white" />
-    <line x1="106" y1="144" x2="110" y2="148" stroke="white" />
-    <path d="M 61 189 C 55 194 61 198 65 193" fill="white" stroke="white" fill="white"></path>
-    <path d="M 106 144 L 61 189 65 193 110 148" fill="white" stroke="white"></path>
+<svg viewbox="0 0 257 256" xmlns="http://www.w3.org/2000/svg" style="background-color:#8296AD">
+    <circle cx="125" cy="125.5" r="122" stroke="#FFFFFF" fill="#8296AD" />
+    <circle cx="140" cy="107" r="52" stroke="#FFFFFF" fill="#FFFFFF" />
+    <circle cx="140" cy="107" r="46" stroke="#FFFFFF" fill="#8296AD" />
+    <line x1="106" y1="144" x2="61" y2="189" stroke="#FFFFFF" />
+    <line x1="110" y1="148" x2="65" y2="193" stroke="#FFFFFF" />
+    <line x1="106" y1="144" x2="110" y2="148" stroke="#FFFFFF" />
+    <path d="M 61 189 C 55 194 61 198 65 193" fill="#FFFFFF" stroke="#FFFFFF"></path>
+    <path d="M 106 144 L 61 189 65 193 110 148" fill="#FFFFFF" stroke="#FFFFFF"></path>
 </svg>

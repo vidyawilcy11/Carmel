@@ -1,8 +1,8 @@
-<svg viewbox="0 0 257 257" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 129 7 L 20 94 237 94 129 7 20 94" stroke="black" fill="white"/>
-    <path d="M 24 97 L 127 179 232 97 24 97" stroke="black" fill="white"/>
-    <path d="M 21 208 L 20 97 127 182 236 97 237 208" stroke="black" fill="white"/>
-    <line x1="37" y1="224" x2="221" y2="224" stroke="black"/>
-    <path d="M 21 208 C 21 215 27 222 37 224" stroke="black" fill="white"/>
-    <path d="M 237 208 C 236 215 231 222 221 224" stroke="black" fill="white"/>
+<svg viewbox="0 0 257 257" xmlns="http://www.w3.org/2000/svg" style="background-color:#8296ad">
+    <path d="M 129 7 L 20 94 237 94 129 7 20 94" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 24 97 L 127 179 232 97 24 97" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 21 208 L 20 97 127 182 236 97 237 208" stroke="#FFFFFF" fill="#8296ad"/>
+    <line x1="37" y1="224" x2="221" y2="224" stroke="#FFFFFF"/>
+    <path d="M 21 208 C 21 215 27 222 37 224" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 237 208 C 236 215 231 222 221 224" stroke="#FFFFFF" fill="#8296ad"/>
 </svg>

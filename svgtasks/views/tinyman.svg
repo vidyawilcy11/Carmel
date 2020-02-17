@@ -1,20 +1,20 @@
-<svg viewbox="0 0 257 257" xmlns="http://www.w3.org/2000/svg">
-    <path d="M 135 150 L 123 150 123 238" stroke="black" fill="white"/>
-    <line x1="135" y1="150" x2="135" y2="238" stroke="black"/>
-    <line x1="100" y1="114" x2="100" y2="238" stroke="black"/>
-    <circle cx="129" cy="39.5" r="25.5" stroke="black" fill="white"/>
-    <line x1="158" y1="114" x2="158" y2="238" stroke="black"/>
-    <line x1="87" y1="114" x2="87" y2="150" stroke="black"/>
-    <line x1="68" y1="114" x2="68" y2="150" stroke="black"/>
-    <line x1="169" y1="114" x2="169" y2="150" stroke="black"/>
-    <line x1="189" y1="114" x2="189" y2="150" stroke="black"/>
-    <line x1="103" y1="72" x2="153" y2="72" stroke="black"/>
-    <path d="M 103 72 C 78 81 72 90 68 114" stroke="black" fill="white"/>
-    <path d="M 153 72 C 178 81 186 90 189 114" stroke="black" fill="white"/>
-    <path d="M 87 114 C 87 105 100 105 100 114" stroke="black" fill="white"/>
-    <path d="M 158 114 C 158 105 169 105 169 114" stroke="black" fill="white"/>
-    <path d="M 100 238 C 100 254 123 254 123 238" stroke="black" fill="white"/>
-    <path d="M 135 238 C 135 254 158 254 158 238" stroke="black" fill="white"/>
-    <path d="M 68 150 C 68 160 87 160 87 150" stroke="black" fill="white"/>
-    <path d="M 169 150 C 169 160 189 160 189 150" stroke="black" fill="white"/>
+<svg viewbox="0 0 257 257" xmlns="http://www.w3.org/2000/svg" style="background-color:#8296ad">
+    <path d="M 135 150 L 123 150 123 238" stroke="#FFFFFF" fill="#8296ad"/>
+    <line x1="135" y1="150" x2="135" y2="238" stroke="#FFFFFF"/>
+    <line x1="100" y1="114" x2="100" y2="238" stroke="#FFFFFF"/>
+    <circle cx="129" cy="39.5" r="25.5" stroke="#FFFFFF" fill="#8296ad"/>
+    <line x1="158" y1="114" x2="158" y2="238" stroke="#FFFFFF"/>
+    <line x1="87" y1="114" x2="87" y2="150" stroke="#FFFFFF"/>
+    <line x1="68" y1="114" x2="68" y2="150" stroke="#FFFFFF"/>
+    <line x1="169" y1="114" x2="169" y2="150" stroke="#FFFFFF"/>
+    <line x1="189" y1="114" x2="189" y2="150" stroke="#FFFFFF"/>
+    <line x1="103" y1="72" x2="153" y2="72" stroke="#FFFFFF"/>
+    <path d="M 103 72 C 78 81 72 90 68 114" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 153 72 C 178 81 186 90 189 114" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 87 114 C 87 105 100 105 100 114" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 158 114 C 158 105 169 105 169 114" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 100 238 C 100 254 123 254 123 238" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 135 238 C 135 254 158 254 158 238" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 68 150 C 68 160 87 160 87 150" stroke="#FFFFFF" fill="#8296ad"/>
+    <path d="M 169 150 C 169 160 189 160 189 150" stroke="#FFFFFF" fill="#8296ad"/>
 </svg>
