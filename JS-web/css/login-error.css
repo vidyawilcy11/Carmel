@@ -1,0 +1,35 @@
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+        }
+  .main-body-container{
+    margin: 2%;box-shadow: 0px 0px 10px rgba(0.0,0.0,0.0,0.29);border-radius: 20px;background-color: #FFFFFF;
+  }
+  .main-container{
+    margin:auto;width:30%;padding-top: 8%;padding-bottom: 8%;
+  }
+  .login-text{
+    color:#595959;font-size:1.2vw;font-family:Roboto Bold;border-bottom: 3px solid #707070;
+  }
+  .inputcontainer{
+    padding: 6px;border-radius: 5px;border:1px solid #000000;border:1px solid #D3D3D3;width: 100%;
+  }
+  .login-button{
+    border:0px;color: #FFFFFF;background-color:#32BDD2;width:30%;padding: 12px;border-radius: 21px;box-shadow: 1px 1px 5px rgba(0.0,0.0,0.0,0.40);
+  }
+  @media screen and (max-device-width:1024px){
+    .login-text{
+        color:#32bdd2;font-size:1.2vw;font-family:Roboto Bold;border-bottom: 3px solid #707070;
+      } 
+  }
+  @media screen and (max-device-width:768px){
+    .login-text{
+        color:red;font-size:1.2vw;font-family:Roboto Bold;border-bottom: 3px solid #707070;
+      }
+  }
+  @media screen and (max-device-width:425px){
+    .login-text{
+        color:#32BDD2;font-size:1.2vw;font-family:Roboto Bold;border-bottom: 3px solid #707070;
+      }
+  }
