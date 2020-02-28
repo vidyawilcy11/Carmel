@@ -72,12 +72,13 @@
     transform: rotate(45deg);
     position: absolute;
     top: 51.5%;
+    background-color: #FFFFFF;
 }
 
 .dropdown-container {
     position: absolute;
     top: 59%;
-    left: 49%;
+    left: 48.5%;
 }
 .authors-container{
     display: grid;grid-template-columns: 10% 70% 20%;align-items: center;
