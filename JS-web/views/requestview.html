@@ -4,8 +4,6 @@
 <head>
     <title>Request-view</title>
     <link rel="stylesheet" type="text/css" href="../css/requestview.css">
-    <link rel="stylesheet" type="text/css" href="../css/inboxpublic.css">
-    <script src="../js/myrequest.js"></script>
 </head>
 
 <body>
@@ -27,18 +25,18 @@
                     </div>
                 </div>
             </div>
-            <div>
+            <div class="body-content-container">
                 <div class="body-container">
                     <div>
                         <div class="left-container">
                             <div class="left-arrow-container">
                                 <img src="../images/request-icons-18.png" alt="" class="left-content-images">
                             </div>
-                            <div class="inbox-content-container" id="home">
-                                <img onclick="inboxmessage()" src="../images/request-icons-25.png" alt="" class="left-content-images">
+                            <div class="inbox-content-container">
+                                <img src="../images/request-icons-25.png" alt="" class="left-content-images">
                             </div>
-                            <div class="inbox-container" id="message">
-                                <img onclick="public()" src="../images/request-icons-26.png" alt="" class="left-content-images">
+                            <div class="inbox-container">
+                                <img src="../images/request-icons-26.png" alt="" class="left-content-images">
                             </div>
                             <div class="inbox-container">
                                 <img src="../images/request-icons-27.png" alt="" class="left-content-images">
@@ -52,7 +50,7 @@
                         </div>
                     </div>
                     <div>
-                        <div id="request-view" class="right-container">
+                        <div class="right-container">
                             <div>
                                 <div class="request-view-content">
                                     <div style="margin-bottom:5%;">
@@ -356,226 +354,6 @@
                                                         <p>Lorem ipsum doler sit amet.</p>
                                                     </div>
                                                 </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div id="inbox-public" class="right-container" style="display:none;">
-                            <div>
-                                <span>INBOX</span>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor sit
-                                    amet tempor vehicula.</p>
-                            </div>
-                            <div>
-                                <div class="public-private-button">
-                                    <div>
-                                        <button class="public-button">PUBLIC</button>
-                                    </div>
-                                    <div>
-                                        <button class="private-button">PRIVATE</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div style="margin-bottom:0.5%;">
-                                    <div class="details-container">
-                                        <div>
-                                            <img src="../images/1.png" alt="" width="50" height="50" style="border-radius:50%;">
-                                        </div>
-                                        <div>
-                                            <img src="../images/reddot.png" alt="" width="10" height="10">
-                                        </div>
-                                        <div>
-                                            <span>Anurag Basu</span>
-                                            <p>Lorem ipsum doler sit amet.</p>
-                                        </div>
-                                        <div style="text-align:end">
-                                            <img src="../images/request-icons-05.png" alt="" width="20" height="20">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div class="details-container">
-                                        <div>
-                                            <img src="../images/1.png" alt="" width="50" height="50" style="border-radius:50%;">
-                                        </div>
-                                        <div>
-                                            <img src="../images/reddot.png" alt="" width="10" height="10">
-                                        </div>
-                                        <div>
-                                            <span>Sameera Rautela</span>
-                                            <p>Lorem ipsum doler sit amet.</p>
-                                        </div>
-                                        <div style="text-align:end">
-                                            <img src="../images/request-icons-16.png" alt="" width="20" height="20">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div class="4" style="margin-left:2.5%;border-left: 6px solid #F7F7F7;padding-bottom: 3%;">
-                                    <div>
-                                        <div>
-                                            <div style="padding-left:1%;padding-top: 4%;padding-bottom: 1%;">
-                                                <span>You</span>
-                                                <p>Now</p>
-                                            </div>
-                                            <div style="margin-bottom:4%;">
-                                                <div class="4b" style="background-color:#F4F8FA;padding-top: 2%;padding-left: 1%;width: 80%;">
-                                                    <div>
-                                                        <textarea rows="5" cols="5" class="submit-details"></textarea>
-                                                    </div>
-                                                    <div style="padding-top: 2%;padding-bottom: 1%;">
-                                                        <button class="submit-button">SUBMIT</button>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="5" style="margin-left: 1%;">
-                                            <div style="float:left;margin-top: 0.5%;">
-                                                <img src="../images/reddot.png" alt="" width="10" height="10">
-                                            </div>
-                                            <div style="float:left;padding-left: 0.5%;">
-                                                <span>Sameera Rautela</span>
-                                                <p>28th Jun 2018 11:47 AM</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div style="clear:both;padding-top:1%;margin-bottom: 1%;border-left: 7px solid #41A6DF">
-                                            <div class="6">
-                                                <div>
-
-                                                </div>
-                                                <div style="margin-left:1%;">
-                                                    <p>Integer porta tellus a lectus volutpat volutpat. Fusce ac
-                                                        fringilla
-                                                        justo,
-                                                        sed iaculis purus. In
-                                                        laoreet
-                                                        non est vel euismod. Ut gravida pretium justo id pretium.
-                                                        Aliquam
-                                                        elementum
-                                                        pellentesque
-                                                        lectus. Nulla
-                                                        odio elit, feugiat non ultrices ut, condimentum ac augue.
-                                                        Vivamus
-                                                        consectetur posuere dui at
-                                                        consectetur. Nam neque lacus, luctus eget dapibus a,
-                                                        pellentesque
-                                                        ut quam.
-                                                        Duis et tristique
-                                                        tellus. Ut
-                                                        sed mauris nec purus convallis venenatis non at sem. Donec a
-                                                        purus
-                                                        porta,
-                                                        suscipit lacus
-                                                        consectetur,
-                                                        varius nisi.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="7" style="margin-top: 5%;margin-bottom: 1%;padding-left: 1%;">
-                                            <span>You</span>
-                                            <p>27th Jun 2018 03:29 PM</p>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div style="clear: both;padding-top: 1%;margin-bottom: 1%;">
-                                            <div class="8" style="border-left: 7px solid #747474;">
-                                                <div>
-
-                                                </div>
-                                                <div style="margin-left:1%;">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
-                                                        quis
-                                                        ex
-                                                        semper, faucibus diam a,
-                                                        ultrices nulla. Sed ex augue, feugiat sagittis pulvinar
-                                                        euismod,
-                                                        finibus
-                                                        vel justo. In
-                                                        fermentum auctor
-                                                        nisl nec ullamcorper. Sed odio nisi, pellentesque sed sapien
-                                                        ornare, luctus
-                                                        consequat dolor.
-                                                        Donec
-                                                        lacus massa, eleifend vitae fringilla sit amet, sodales in
-                                                        massa.
-                                                        Fusce
-                                                        varius et quam sit amet
-                                                        condimentum.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="9" style="margin-top:5%;margin-bottom: 1%;padding-left: 1%;">
-                                        <span>Sameera Rautela</span>
-                                        <p>26th Jun 2018 10:18 AM</p>
-                                    </div>
-                                    <div>
-                                        <div class="10" style="border-left: 7px solid #41A6DF;">
-                                            <div style="margin-left:1%;">
-                                                <p>Vestibulum nec feugiat justo. Ut dapibus et orci at gravida.
-                                                    Phasellus
-                                                    lacinia posuere nisi vel
-                                                    interdum. Morbi nec nisl a urna lacinia dapibus in in dui. Maecenas
-                                                    sit
-                                                    amet laoreet nulla.
-                                                    Donec dignissim magna odio, vitae eleifend turpis accumsan eget.
-                                                    Donec
-                                                    aliquet pretium finibus.
-                                                    Donec quis sem dictum, molestie sapien ut, semper diam. Mauris non
-                                                    lobortis
-                                                    magna, ut dictum
-                                                    enim. Vivamus vel felis maximus, dignissim risus id, mattis risus.
-                                                    Sed
-                                                    et
-                                                    scelerisque tortor.
-                                                    Proin in elementum nunc, sit amet suscipit odio. Donec tempus non
-                                                    dolor
-                                                    ac
-                                                    aliquet. In ornare
-                                                    mi quis consequat viverra.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div>
-                                <div>
-                                    <div style="margin-bottom:0.5%;">
-                                        <div class="detail-container">
-                                            <div>
-                                                <img src="../images/1.png" alt="" width="50" height="50" style="border-radius:50%;">
-                                            </div>
-                                            <div>
-                                                <span>Urvashi Banerjee</span>
-                                                <p>Lorem ipsum doler sit amet.</p>
-                                            </div>
-                                            <div style="text-align:end;">
-                                                <img src="../images/request-icons-05.png" alt="" width="20" height="20">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="detail-container">
-                                            <div>
-                                                <img src="../images/1.png" alt="" width="50" height="50" style="border-radius:50%;">
-                                            </div>
-                                            <div>
-                                                <span>Urvashi Banerjee</span>
-                                                <p>Lorem ipsum doler sit amet.</p>
-                                            </div>
-                                            <div style="text-align:end;">
-                                                <img src="../images/request-icons-05.png" alt="" width="20" height="20">
                                             </div>
                                         </div>
                                     </div>

@@ -94,7 +94,7 @@
     grid-template-columns: 4% 2% 20% 74%;align-items: center;background-color: #F7F7F7;padding: 1.5%;
 }
 .submit-details{
-border:1px solid #EDEAEA;width: 70%;
+border:1px solid #EDEAEA;width: 70%;padding: 2%;
 }
 .detail-container{
     display: grid;
