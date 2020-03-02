@@ -34,3 +34,9 @@
 .add-item-text{
     font-size:1.2vw;
 }
+.edit-delete-content-one{
+    width: 12%;position: absolute;left: 81%;top: 36%;display: none;background-color: #FFFFFF;
+}
+.edit-delete-content-two{
+    width: 12%;position: absolute;left: 81%;top: 51.8%;display: none;background-color: #FFFFFF;
+}

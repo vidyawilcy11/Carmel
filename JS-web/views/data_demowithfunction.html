@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data_demo</title>
+</head>
+
+<body>
+    <div id="parent">
+
+    </div>
+
+    <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+
+            if (this.readyState == 4 && this.status == 200) {
+
+                var response = JSON.parse(httpRequest.responseText);
+                var response = response.results;
+
+            }
+        };
+
+        document.body.onload = addElement;
+        function addElement() {
+            // create a new div element 
+            var newDiv = document.createElement("div");
+            // and give it some content 
+            var newContent = document.createTextNode("Hi!");
+            // add the text node to the newly created div
+            newDiv.appendChild(newContent);
+
+            // add the newly created element and its content into the DOM 
+            var currentDiv = document.getElementById("div1");
+            document.body.insertBefore(newDiv, currentDiv);
+
+            var newDivision = document.createElement("p");
+            var newContenttext = document.createTextNode("Hello welcome to nodejs");
+            newDivision.appendChild(newContenttext);
+
+            var currentDivcontent = document.getElementById("paragraph");
+            document.body.insertBefore(newDivision, currentDivcontent);
+
+            var x = document.createElement("img");
+            x.setAttribute("src", "../images/1.png");
+            x.setAttribute("width", "100");
+            x.setAttribute("height", "100");
+            x.setAttribute("alt", "dot-image")
+            document.body.appendChild(x);
+
+            
+        }
+
+        var x = document.createElement("img");
+            x.setAttribute("src", "../images/blue-dot.png");
+            x.setAttribute("width", "100");
+            x.setAttribute("height", "100");
+            x.setAttribute("alt", "dot-image")
+            document.body.appendChild(x);
+
+
+
+        xhttp.open("GET", "https://api.themoviedb.org/3/movie/76341", true);
+        xhttp.send();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,1095 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Requisition-form</title>
+    <script src="../js/myrequest.js"></script>
+    <style>
+        p {
+            margin-top: 0%;
+            margin-bottom: 0%;
+        }
+
+        * {
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+
+        .dotted-line {
+            border-left: 3px dotted #D3D3D3;
+            height: 70px;
+            margin-left: 25%;
+        }
+
+        .circle {
+            width: 2%;
+            background-color: #FFFFFF;
+            border-radius: 50%;
+            border: 1px solid #D3D3D3;
+            position: absolute;
+            text-align: center;
+            padding: 0.5%;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div style="width:100%;">
+            <div>
+                <div style="padding: 0.5%;box-shadow: 2px 2px 1px 1px rgb(230, 228, 228);display: grid;grid-template-columns: 90% 4% 4% 2%;">
+                    <div>
+                        <img src="../images/request-icons-02.png" width="35" height="auto">
+                    </div>
+                    <div style="text-align: center;">
+                        <img src="../images/1.png" alt="" width="50" height="50" style="border-radius: 50%;">
+                    </div>
+                    <div style="text-align: center;align-self: center;">
+                        <span>John Doe</span>
+                    </div>
+                    <div style="text-align:center;align-self: center">
+                        <img src="../images/request-icons-05.png" width="10" height="10">
+                    </div>
+                </div>
+            </div>
+            <div style=" margin: 2%;box-shadow: 0px 0px 6px rgba(0,0,0,0.29);">
+                <div class="body-container" style="border-bottom: 0.5px solid #B5B5B5;display: grid;grid-template-columns: 5% 95%;">
+                    <div style="background-color:#FFFFFF;">
+                        <div class="left-container">
+                            <div style="transform:rotate(270deg);margin-top: 60%;">
+                                <span>REQUISITION</span>
+                            </div>
+                            <div style="margin-left: 30%;margin-top: 70%;">
+                                <div class="circle">
+                                    <span style="color:black;">1</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle">
+                                    <span class="text" style="color:black;">2</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle">
+                                    <span class="text" style="color:black;">3</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle">
+                                    <span class="text" style="color:black;">4</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle">
+                                    <span class="text" style="color:black;">5</span>
+                                </div>
+
+                                <div class="dotted-line"></div>
+                                <div class="circle" style="background-color:#32BDD2;">
+                                    <span class="text" style="color:#FFFFFF;">6</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="padding:2%;background-color: #FCFCFC;">
+                        <div id="note-request-typecontainer" class="right-container" style="background-color:#FCFCFC;padding: 2%;display: none;">
+                            <div>
+                                <span>NOTE</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis, tortor
+                                    sit amet
+                                    tempor
+                                    vehicula.</p>
+                            </div>
+                            <div style="width:30%;margin-top: 3%;margin-bottom: 3%;">
+                                <textarea rows="4" style="border:1px solid #B5B5B5;border-radius: 4px;width:80%;padding: 2%;"></textarea>
+                            </div>
+                            <div>
+                                <div class="3">
+                                    <div style="margin-bottom:2%;">
+                                        <p>REQUEST TYPE</p>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis,
+                                            tortor sit amet
+                                            tempor
+                                            vehicula.</p>
+                                    </div>
+                                    <div style="margin-bottom:4%;">
+                                        <div class="3b">
+                                            <div style="float:left">
+                                                <input type="radio">
+                                            </div>
+                                            <div style="float:left;margin-left: 1%">
+                                                <span>SELF</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="margin-bottom:6%;">
+                                        <div class="3c" style="clear:both;">
+                                            <div style="float:left">
+                                                <input type="radio">
+                                            </div>
+                                            <div style="float:left;margin-left: 1%">
+                                                <span>TEAM / DEPARTMENT / BRANCH</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="3d" style="clear:both;">
+                                            <div style="float:left">
+                                                <input type="radio">
+                                            </div>
+                                            <div style="float:left;margin-left: 1%">
+                                                <span>SOMEONE ELSE</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="margin-top:20%;">
+                                <div class="4" style="clear:both;display: grid;grid-template-columns: 92% 8%;">
+                                    <div style="align-self:center;">
+                                        <a href="../views/acknowledgement.html" style="text-decoration:none;">
+                                            <span style="border-bottom:2px solid #747474;color: #000000">SAVE DRAFT</span>
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <div onclick="nextfile()" class="2" style="background-color: #32BDD2;display: grid;
+                                        grid-template-columns: 60% 40%;border-radius: 29px;text-align: center;align-items: center;padding: 5%;">
+                                            <div style="text-align:end;">
+                                                <span style="color:#FFFFFF;">NEXT</span>
+                                            </div>
+                                            <div style="text-align:start;">
+                                                <img src="../images/request-icons-12.png" alt="" width="20" height="20"></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="requisition-items" class="right-content-upper-part" style="margin-bottom:8%;border:1px solid #F0F0F0;display: none;">
+                            <div class="add-items" style="display:grid;grid-template-columns:85% 10% 5%;padding: 2%;background-color: #F0F0F0;align-items: center;">
+                                <div>
+                                    <p>ITEMS</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                                <div style="text-align: end;
+                                            align-self: center">
+                                    <span>ADD ITEMS</span>
+                                </div>
+                                <div style="text-align: center;align-self: center">
+                                    <img onclick="additems()" src="../images/request-icons-10.png" alt="" width="50"
+                                        height="50">
+                                </div>
+                            </div>
+                            <div>
+                                <div id="add-items-popup" style="display:none;">
+                                    <div class="main-container">
+                                        <div>
+                                            <div class="header-popup-content">
+                                                <div class="add-item">
+                                                    <span class="add-item-text">Add Item</span>
+                                                </div>
+                                                <div class="cancel-content">
+                                                    <img onclick="cancel()" src="../images/request-icons-13.png" alt=""
+                                                        width="30" height="30">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="clear:both;">
+                                            <div class="body-container" style="padding:8%;display: none; display: grid;grid-template-columns: 5% 95%;margin: 2%;">
+                                                <div style="margin-bottom:8%;">
+                                                    <div class="1">
+                                                        <div>
+                                                            <p style="margin-bottom:2%">DESCRIPTION</p>
+                                                        </div>
+                                                        <div>
+                                                            <textarea rows="4" cols="5" class="description-area"></textarea>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="margin-bottom:10%">
+                                                    <div class="2">
+                                                        <div>
+                                                            <p style="margin-bottom:2%">QTY</p>
+                                                        </div>
+                                                        <div>
+                                                            <input type="text" class="input-date-content">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="margin-bottom:2%">
+                                                    <p>FULLFILLMENT DUE DATE</p>
+                                                </div>
+                                                <div style="margin-bottom:8%;">
+                                                    <div class="4">
+                                                        <div style="float:left;">
+                                                            <input type="text" style="border:1px solid #B5B5B5;padding: 2.5%;border-radius:4px;">
+                                                        </div>
+                                                        <div>
+                                                            <img src="../images/request-icons-17.png" alt="" width="40"
+                                                                height="40" class="calendar-image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="margin-bottom:3%;">
+                                                    <div class="5">
+                                                        <div>
+                                                            <p style="margin-bottom:2%">APPROXIMATE PRICE</p>
+                                                        </div>
+                                                        <div>
+                                                            <input type="text" class="input-date-content">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="footer-container">
+                                                <div style="float:left;margin-top: 3%;">
+                                                    <span onclick=cancel() style="border-bottom:1px solid #B5B5B5">CANCEL</span>
+                                                </div>
+                                                <div style="text-align:end;">
+                                                    <button class="done-button">DONE</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="add-items-list">
+
+                                    <div style="display: grid;grid-template-columns: 40% 15% 20% 20% 5%;padding: 2% 1% 2% 1%;border-bottom: 1px solid #F0F0F0;align-items: center;">
+                                        <div>
+                                            <p id="full-text" style="display:none;">IBM ThinkServer TS150 Tower Server
+                                                With
+                                                Max.
+                                                Processor 1 x Intel Xeon E3 (Quad
+                                                Core)
+                                                E3-1225
+                                                v5"(3.3
+                                                GHz
+                                                /Cache 8 MB) / STD MEMORY 8GB X 1/ MAX. MEMORY 64GB 4 Slots/HARD DRIVE
+                                                1 X 1TB
+                                                SATA
+                                                3.5"
+                                                7.2k
+                                                SATA
+                                                /
+                                                STD. HDD BAY/ 3 bay MAX. HDD BAY upto 4 x 3.5" +1 x 2.5" bay/ OPTICAL
+                                                Multi
+                                                Burner/Integrated
+                                                RAID
+                                                0,1,5,10 (RAID 121i).</p>
+                                            <p id="half-text">IBM ThinkServer TS150 Tower Server With Max. Processor 1
+                                                x Intel
+                                                Xeon
+                                                E3 (Quad
+                                                Core)
+                                                E3-1225
+                                                v5"(3.3
+                                                GHz
+                                                /Cache 8 MB)</p>
+
+                                            <p id="readmore" onclick="readmore()">READ MORE</p>
+                                            <p style="display:none;" id="readless" onclick="readless()">READ LESS</p>
+                                        </div>
+
+                                        <div style="text-align: center">
+                                            <span>01</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>10
+                                                Jul
+                                                2019</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>Rs. 45,000</span>
+                                        </div>
+
+                                        <div style="text-align: center">
+                                            <img onclick="editdelete()" src="../images/request-icons-11.png" alt=""
+                                                width="50" height="50">
+                                        </div>
+
+                                        <div onclick="edit()" id="edit-delete-content" style="width: 12%;position: absolute;left: 81%;top: 36%;display: none;background-color: #FFFFFF;">
+                                            <div class="main-division" style="border: 1px solid #CCCCCC;">
+                                                <div style="margin-left: 10%;margin-right: 10%;padding-top: 10%;padding-bottom: 10%;border-bottom: 1px solid #CCCCCC;text-align: start;">
+                                                    <p>EDIT</p>
+                                                </div>
+                                                <div style="margin-left: 10%;margin-right: 10%;padding-top: 10%;padding-bottom: 10%;text-align: start;">
+                                                    <p>DELETE</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="display: grid;grid-template-columns: 40% 15% 20% 20% 5%;padding: 2% 1% 2% 1%;border-bottom: 1px solid #F0F0F0;align-items: center;">
+                                        <div>
+                                            <p>Lenovo ThinkServer TS450 (PN:70M2001VIH) With Max. Processor 1 x Intel
+                                                Xeon E3
+                                                (Quad
+                                                Core)
+                                                E3-1225
+                                                v5”(3.3 GHz /Cache 8 MB)/ STD MEMORY 8GB X 1 MAX. MEMORY 64GB; 4 DIMM
+                                                Memory
+                                                Slots/
+                                                HARD
+                                                DRIVE
+                                                Open
+                                                Bay/ 2.5” SAS/SATA HS Bays (8 bay MAX. HDD BAY upto 8 x 2.5” bay MAX.
+                                                HDD BAY
+                                                upto
+                                                16x2.5”)/OPTICAL
+                                                Multi Burner/ PCIe RAID 0,1,10 (RAID 520i). Supports SAS & SATA
+                                                drives/Power
+                                                Supply
+                                                Standard
+                                                (Inbuilt)
+                                                1 x 450W Power Supply /Max: 2</p>
+                                            <p>READ MORE</p>
+                                        </div>
+
+                                        <div style="text-align: center">
+                                            <span>01</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>10
+                                                Jul
+                                                2019</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>Rs.
+                                                45,
+                                                000</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <img src="../images/request-icons-11.png" alt="" width="50" height="50">
+                                        </div>
+                                    </div>
+
+                                    <div style="display: grid;grid-template-columns: 40% 15% 20% 20% 5%;padding: 2% 1% 2% 1%;border-bottom: 1px solid #F0F0F0;align-items: center;">
+                                        <div>
+                                            <p>IBM X3300M4 Server With x3300M4/ Part NO:7382IA4/ Intel Xeon E5 1230v2
+                                                1.8
+                                                GHz,10
+                                                MB,1066MHz/ 1x
+                                                8GB
+                                                RAM/ 1x500GB SATA HDD/ 3.5Simple-Swap/ MULTI BUTRNER</p>
+                                            <p>READ MORE</p>
+                                        </div>
+
+                                        <div style="text-align: center">
+                                            <span>01</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>10
+                                                Jul
+                                                2019</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>Rs.
+                                                45,
+                                                000</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <img src="../images/request-icons-11.png" alt="" width="50" height="50">
+                                        </div>
+                                    </div>
+
+                                    <div style="display: grid;grid-template-columns: 40% 15% 20% 20% 5%;padding: 2% 1% 2% 1%;border-bottom: 1px solid #F0F0F0;align-items: center;">
+                                        <div>
+                                            <p>IBM Lenovo ThinkServer RD450 Rack Server (PN:70Q90059IH) with 1 x Intel®
+                                                Xeon®
+                                                E5-2620v4
+                                                (2.1GHz/8C/20MB/85W/2133Mhz)/Max: 2 Processors/ STD MEMORY 16GB X 1
+                                                MAX. MEMORY
+                                                1
+                                                TB
+                                                ;16
+                                                Slots/
+                                                HARD
+                                                DRIVE : Open Bay (2.5” HOT Swap SAS/SATA STD. HDD BAY 8 bay / MAX. HDD
+                                                BAY 16
+                                                bay
+                                                with
+                                                optical
+                                                bay/24
+                                                bay without optical bay) / OPTICAL Multi Burner/ Integrated RAID 0,1,10
+                                                (RAID
+                                                110i).
+                                                Supports
+                                                only
+                                                SATA
+                                                drive/ Power Supply Standard (Inbuilt) 1 x 750W Power Supply Max: 2</p>
+                                            <p>READ MORE</p>
+                                        </div>
+
+                                        <div style="text-align: center">
+                                            <span>01</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>10
+                                                Jul
+                                                2019</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>Rs.
+                                                45,
+                                                000</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <img src="../images/request-icons-11.png" alt="" width="50" height="50">
+                                        </div>
+                                    </div>
+
+                                    <div style="display: grid;grid-template-columns: 40% 15% 20% 20% 5%;padding: 2% 1% 2% 1%;align-items: center;">
+                                        <div>
+                                            <p>daptec 128 MB Raid Controller Pair. Pci-e SAS/SATA</p>
+                                            <p>READ MORE</p>
+                                        </div>
+
+                                        <div style="text-align: center">
+                                            <span>01</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>10
+                                                Jul
+                                                2019</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <span>Rs.
+                                                45,
+                                                000</span>
+                                        </div>
+                                        <div style="text-align: center">
+                                            <img src="../images/request-icons-11.png" alt="" width="50" height="50">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="button-container" class="Right-button-content" style="display: grid;grid-template-columns: 80% 10% 10%;align-items: center;display: none;">
+                            <div>
+                                <a href="../views/acknowledgement.html" style="text-decoration:none;">
+                                    <span style="border-bottom:2px solid #B5B5B5;color: #000000">SAVE DRAFT</span>
+                                </a>
+                            </div>
+                            <div style="text-align:center;">
+                                <span onclick="previouspage()" style="border-bottom:2px solid #32BDD2;color: #32BDD2">BACK</span>
+                            </div>
+                            <div>
+                                <div class="next button icon">
+                                    <div onclick="next()" style="display: grid;width:60%;grid-template-columns: 60% 40%;text-align: center;border-radius: 21px;           
+                                                        box-shadow: 1px 1px 5px #5E6469;
+                                                        background-color: #32BDD2;align-items: center;">
+                                        <div style="text-align:end;">
+                                            <button style="border: 0px;color: #FFFFFF;
+                                                      background-color: #32BDD2;padding: 12px;border-radius: 21px">NEXT</button>
+                                        </div>
+                                        <div style="text-align:left;">
+                                            <img src="../images/request-icons-12.png" alt="" width="20" height="15"
+                                                class="next-button" style="align-self:center">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="upload-data-container" class="right-container" style="padding:2%;background-color: #FCFCFC;display:none;">
+                            <div>
+                                <div class="attachments" style="background-color:#F0F0F0;padding:1%;border:1px solid #E0E0E0;">
+                                    <span>ATTACHMENTS</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+
+                            <div style="padding: 3% 38% 8% 2%;border: 1px solid #F0F0F0;">
+                                <div class="browse-file" style="display:grid;grid-template-columns:50% 50%;">
+                                    <div style="padding:3%;border: 1px solid #DFEBEF;">
+                                        <div class="left-container">
+                                            <div style="margin-bottom:3%;">
+                                                <p>Select a file from my computer.</p>
+                                                <p>Maximum allowed size is 5MB per file. Only documents like pdf, docx,
+                                                    ppt,
+                                                    xls etc
+                                                    are allowed.</p>
+                                            </div>
+                                            <div>
+                                                <button onclick="browseupload()" style="border:0px;background-color: #32bdd2;color: #FFFFFF;border-radius: 5px;padding: 2%;">BROWSE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="background-color: #32BDD2;
+                                    padding: 6%;
+                                  
+                                    align-self: center;">
+                                        <div class="drop-file-right-container" style="text-align: center;padding: 6%;border: 2px dashed #ffffff">
+                                            <div>
+                                                <img src="../images/request-icons-06.png" alt="" width="30" height="30">
+                                            </div>
+                                            <div>
+                                                <span style="color:#FFFFFF;">Drop a file here</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="upload-container" style="display:none;">
+                                    <div class="upload" style="display: grid;grid-template-columns: 80% 20%;border:1px solid #F0F0F0;">
+                                        <div>
+                                            <div class="upload-1" style="border: 1px solid #DFEBEF;">
+                                                <div style="padding:2%;">
+                                                    <div class="file">
+                                                        <div style="float:left">
+                                                            <p>abc0037429023.doc</p>
+                                                        </div>
+                                                        <div style="float:right;">
+                                                            <p>976 KB</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <input type="text" placeholder="write the description" style="width: 100%;padding: 2%;border: 1px solid #DFEBEF">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div style="border-right:1px solid #DFEBEF;margin: auto;">
+                                            <button onclick="upload()" style="border: 0px;background-color: #32bdd2; color: #FFFFFF;border-radius: 25px;padding: 15%;">UPLOAD</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div id="uploaderror" class="error" style="clear:both;display: none;">
+                                        <div style="float:left;">
+                                            <img src="../images/request-icons-07.png" width="30" height="30">
+                                        </div>
+                                        <div style="background-color: #FFF5F5;padding: 0.5%;width: 80%;">
+                                            <span>This field is required.</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <div id="uploadfile" class="attachment-document" style="width:60%;margin-top: 6%;display: none;">
+                                        <div style="margin-bottom:8%;">
+                                            <div class="1" style="display:grid;grid-template-columns:90% 10%;align-items:center;border:1px solid #D5E2E8">
+                                                <div>
+                                                    <div class="left-content" style="border-right:1px solid #D5E2E8">
+                                                        <div style="padding: 2%;
+                                                        padding-bottom: 5%;">
+                                                            <div class="top-content">
+                                                                <div style="float:left;">
+                                                                    <span>abc0037429023.doc</span>
+                                                                </div>
+                                                                <div style="float:right;">
+                                                                    <span>976 KB</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="clear:both;border-top:0.5px solid#D5E2E8;padding: 2%">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="margin:auto">
+                                                    <img src="../images/request-icons-15.png" alt="" width="30" height="30">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="2" style="display:grid;grid-template-columns:90% 10%;align-items:center;border:1px solid #D5E2E8">
+                                                <div>
+                                                    <div class="left-content" style="border-right:1px solid #D5E2E8">
+                                                        <div style="padding: 2%;
+                                                        padding-bottom: 5%;">
+                                                            <div class="top-content">
+                                                                <div style="float:left">
+                                                                    <span>abc003745gb9023.doc</span>
+                                                                </div>
+                                                                <div style="float:right;">
+                                                                    <span>988 KB</span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div style="clear:both;border-top:0.5px solid#D5E2E8;padding: 2%">
+                                                            <p>Lorem ipsum dolor sit amet, consectetur
+                                                                adipiscing elit.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div style="margin:auto">
+                                                    <img src="../images/request-icons-15.png" alt="" width="30" height="30">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="margin-top: 8%;margin-bottom: 1%;">
+                                <div class="Right-button-content" style="display: grid;grid-template-columns: 80% 10% 10%;align-items: center;">
+                                    <div>
+                                        <a href="../views/acknowledgement.html" style="text-decoration:none;">
+                                            <span style="border-bottom:2px solid #B5B5B5;padding-bottom: 0.5%;color: #000000;">SAVE
+                                                DRAFT</span>
+                                        </a>
+                                    </div>
+                                    <div style="text-align:center;">
+                                        <span onclick="torequisitionitemspage()" style="border-bottom:2px solid #32BDD2;color: #32BDD2;padding-bottom: 2%">BACK</span>
+                                    </div>
+                                    <div>
+                                        <div class="next button icon">
+                                            <div onclick="addapproverfile()" style="display: grid;width:60%;grid-template-columns: 60% 40%;text-align: center;border-radius: 21px;           
+                                                        box-shadow: 1px 1px 5px #5E6469;
+                                                        background-color: #32BDD2;align-items: center;">
+                                                <div style="text-align:end;">
+                                                    <button style="border: 0px;color: #FFFFFF;background-color: #32BDD2;padding: 12px;border-radius: 21px">NEXT</button>
+                                                </div>
+                                                <div style="text-align:left;">
+                                                    <img src="../images/request-icons-12.png" alt="" width="20" height="15"
+                                                        class="next-button" style="align-self:center">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="browse-attachments" class="right-container" style="padding:2%;background-color: #FCFCFC;display: none;">
+                            <div>
+                                <div class="attachments" style="background-color:#F0F0F0;padding:2%;border:1px solid #E0E0E0;">
+                                    <span>ATTACHMENTS</span>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+
+                            <div style="padding: 3% 38% 8% 2%;border: 1px solid #F0F0F0;">
+                                <div class="browse-file" style="display:grid;grid-template-columns:50% 50%;border:1px solid #F0F0F0;">
+                                    <div style="padding:3%;align-self: center;">
+                                        <div class="left-container">
+                                            <div style="margin-bottom:3%;">
+                                                <p>Select a file from my computer.</p>
+                                                <p>Maximum allowed size is 5MB per file. Only documents like pdf, docx,
+                                                    ppt,
+                                                    xls etc
+                                                    are allowed.</p>
+                                            </div>
+                                            <div>
+                                                <button style="border:0px;background-color: #32bdd2;color: #FFFFFF;border-radius: 5px;padding: 2%;">BROWSE</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="background-color: #32BDD2;
+                                            padding: 6%;
+                                          
+                                            align-self: center;">
+                                        <div class="drop-file-right-container" style="text-align: center;padding: 6%;border: 2px dashed #ffffff">
+                                            <div>
+                                                <img src="../images/request-icons-06.png" alt="" width="30" height="30">
+                                            </div>
+                                            <div>
+                                                <span style="color:#FFFFFF;">Drop a file here</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="right-container" id="approver-container" style="display:none;">
+                            <div>
+                                <div class="add-people" style="display: grid;grid-template-columns: 85% 10% 5%;background-color: #F0F0F0;border: 1px solid #E0E0E0;padding: 2%;align-items: center;">
+                                    <div>
+                                        <span>APPROVAL(S)</span>
+                                        <p>Lorem ipsum dolar sit amet, consectator adipiscing elit</p>
+                                    </div>
+                                    <div style="text-align:end;">
+                                        <span>ADD APPROVER</span>
+                                    </div>
+                                    <div style="margin-left: 8%;">
+                                        <img onclick="addpeople()" src="../images/request-icons-10.png" alt="" width="40"
+                                            height="40">
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border: 1px solid #F0F0F0;padding: 3% 0% 8% 2%;">
+                                <div class="profile-content">
+                                    <div style="width:40%;margin-bottom: 1%;">
+                                        <div style="display: grid;grid-template-columns: 20% 50% 30%;background-color: #F4F8FA;border: 1px solid #D5E2E8;align-items: center;">
+                                            <div style="text-align:center;align-self:center;padding: 1%;">
+                                                <img src="../images/1.png" style="width:50px;height:50px;border-radius: 50%;">
+                                            </div>
+                                            <div>
+                                                <span>John Campbell</span>
+                                                <p>Lorem ipsum dolar sit amet</p>
+                                            </div>
+                                            <div style="text-align:end;margin-right: 15%;">
+                                                <img src="../images/request-icons-24.png" alt="" width="30" height="30">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div style="width:40%;margin-bottom: 1%;">
+                                        <div style="display: grid;grid-template-columns: 20% 50% 30%;background-color: #F4F8FA;border: 1px solid #D5E2E8;align-items: center;">
+                                            <div style="text-align:center;padding: 1%;">
+                                                <img src="../images/1.png" style="width:50px;height:50px;border-radius: 50%;">
+                                            </div>
+                                            <div>
+                                                <span>Kate Gill</span>
+                                                <p>Lorem ipsum dolar sit amet</p>
+                                            </div>
+                                            <div style="text-align:end;margin-right: 15%;">
+                                                <img src="../images/request-icons-24.png" alt="" width="30" height="30">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="Right-button-content" style="display: grid;grid-template-columns: 80% 10% 10%;align-items: center;margin-top: 8%;margin-bottom: 2%;">
+                                <div>
+                                    <a href="../views/acknowledgement.html" style="text-decoration:none;">
+                                        <span style="border-bottom:2px solid #B5B5B5;padding-bottom: 0.5%;color: #000000;">SAVE
+                                            DRAFT</span>
+                                    </a>
+                                </div>
+                                <div style="text-align:center;">
+                                    <span onclick="previousuploadfile()" style="border-bottom:2px solid #32BDD2;color: #32BDD2;padding-bottom: 2%">BACK</span>
+                                </div>
+                                <div>
+                                    <div class="next button icon">
+                                        <a href="../views/preview.html" style="text-decoration:none;">
+                                            <div style="display: grid;width:60%;grid-template-columns: 60% 40%;text-align: center;border-radius: 21px;           
+                                        box-shadow: 1px 1px 5px #5E6469;
+                                        background-color: #32BDD2;align-items: center;">
+                                                <div style="text-align:end;">
+
+                                                    <button style="border: 0px;color: #FFFFFF;background-color: #32BDD2;padding: 12px;border-radius: 21px;">NEXT</button>
+                                                </div>
+                                                <div style="text-align:left;">
+                                                    <img src="../images/request-icons-12.png" alt="" width="20" height="15"
+                                                        class="next-button" style="align-self:center">
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="right-container" id="preview-container">
+                            <div style="margin-bottom:5%;">
+                                <div class="1">
+                                    <p>PREVIEW</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Mauris mattis,
+                                        tortor sit amet
+                                        tempor
+                                        vehicula.</p>
+                                </div>
+                            </div>
+                            <div style="margin-bottom:5%;">
+                                <div class="2">
+                                    <p style="margin-bottom:1%;">NOTE</p>
+                                    <p style="width:30%;margin-bottom: 1%;">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing
+                                        elit. Mauris mattis,
+                                        tortor sit amet
+                                        tempor
+                                        vehicula, tortor ipsum faucibus nunc, id aliquam
+                                        lacus odio nec magna. Cras
+                                        a ipsum
+                                        placerat,
+                                        efficitur nibh sed, iaculis elit. Mauris semper
+                                        tempor facilisis. Nunc at
+                                        consequat
+                                        tortor, vel
+                                        facilisis tortor.</p>
+                                    <p>REQUEST TYPE - SELF</p>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #F0F0F0;padding-bottom: 2%;">
+                                <div style="display:grid;grid-template-columns:30% 20% 20% 30%;">
+                                    <div>
+                                        <p style="margin-bottom:1%;">ITEMS</p>
+                                        <p>IBM ThinkServer TS150 Tower Server With Max.
+                                            Processor 1 x Intel Xeon E3
+                                            (Quad Core)
+                                            E3-1225 v5"(3.3
+                                            GHz /Cache 8 MB)/ STD MEMORY 8GB X 1/ MAX. MEMORY
+                                            64GB 4 Slots/HARD DRIVE 1
+                                            X 1TB SATA
+                                            3.5" 7.2k
+                                            SATA / STD. HDD BAY/ 3 bay MAX. HDD BAY upto 4 x
+                                            3.5" +1 x 2.5" bay/
+                                            OPTICAL Multi
+                                            Burner/Integrated RAID 0,1,5,10 (RAID 121i).</p>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>01</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>10 Jul 2019</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>Rs. 45, 000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #F0F0F0;padding-bottom: 2%;padding-top: 2%;">
+                                <div style="display:grid;grid-template-columns:30% 20% 20% 30%">
+                                    <div>
+                                        <p>Lenovo ThinkServer TS450 (PN:70M2001VIH) With Max. Processor 1 x Intel Xeon
+                                            E3 (Quad
+                                            Core)
+                                            E3-1225
+                                            v5”(3.3 GHz /Cache 8 MB)/ STD MEMORY 8GB X 1 MAX. MEMORY 64GB; 4 DIMM
+                                            Memory Slots/
+                                            HARD DRIVE
+                                            Open
+                                            Bay/ 2.5” SAS/SATA HS Bays (8 bay MAX. HDD BAY upto 8 x 2.5” bay MAX. HDD
+                                            BAY upto
+                                            16x2.5”)/OPTICAL
+                                            Multi Burner/ PCIe RAID 0,1,10 (RAID 520i). Supports SAS & SATA
+                                            drives/Power Supply
+                                            Standard
+                                            (Inbuilt)
+                                            1 x 450W Power Supply /Max: 2</p>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>01</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center">
+                                        <span>10 Jul 2019</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>Rs. 45, 000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #F0F0F0;padding-bottom: 2%;padding-top: 2%;">
+                                <div style="display:grid;grid-template-columns:30% 20% 20% 30%">
+                                    <div>
+                                        <p>IBM X3300M4 Server With x3300M4/ Part NO:7382IA4/ Intel Xeon E5 1230v2 1.8
+                                            GHz,10
+                                            MB,1066MHz/ 1x
+                                            8GB
+                                            RAM/ 1x500GB SATA HDD/ 3.5Simple-Swap/ MULTI BUTRNER</p>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>01</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>10 Jul 2019</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>Rs. 45, 000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="border-bottom:1px solid #F0F0F0;padding-bottom: 2%;padding-top: 2%;">
+                                <div style="display:grid;grid-template-columns:30% 20% 20% 30%">
+                                    <div>
+                                        <p>IBM Lenovo ThinkServer RD450 Rack Server (PN:70Q90059IH) with 1 x Intel®
+                                            Xeon® E5-2620v4
+                                            (2.1GHz/8C/20MB/85W/2133Mhz)/Max: 2 Processors/ STD MEMORY 16GB X 1 MAX.
+                                            MEMORY 1 TB
+                                            ;16 Slots/
+                                            HARD
+                                            DRIVE : Open Bay (2.5” HOT Swap SAS/SATA STD. HDD BAY 8 bay / MAX. HDD BAY
+                                            16 bay with
+                                            optical
+                                            bay/24
+                                            bay without optical bay) / OPTICAL Multi Burner/ Integrated RAID 0,1,10
+                                            (RAID 110i).
+                                            Supports
+                                            only SATA
+                                            drive/ Power Supply Standard (Inbuilt) 1 x 750W Power Supply Max: 2</p>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>01</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>10 Jul 2019</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>Rs. 45, 000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div style="display:grid;grid-template-columns:30% 20% 20% 30%;padding-top: 2%">
+                                    <div>
+                                        <p>daptec 128 MB Raid Controller Pair. Pci-e SAS/SATA</p>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>01</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>10 Jul 2019</span>
+                                    </div>
+                                    <div style="text-align:center;align-self: center;">
+                                        <span>Rs. 45, 000</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style="margin-bottom:5%;margin-top:5%;">
+                                <div class="8">
+                                    <div>
+                                        <div style="margin-bottom:1%">
+                                            <span>ATTACHMENTS</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div style="width: 25%;border:1px solid #D5E2E8;margin-bottom: 2%;">
+                                            <div style="border-bottom:1px solid #D5E2E8">
+                                                <div style="display: grid;
+                                                grid-template-columns: 80% 20%;padding: 2%;">
+                                                    <div>
+                                                        <span>abc0037429023.doc</span>
+                                                    </div>
+                                                    <div>
+                                                        <span>976 KB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="padding: 2%">
+                                                <p>Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div style="width: 25%;border:1px solid #D5E2E8;">
+                                            <div style="border-bottom:1px solid #D5E2E8">
+                                                <div style="display: grid;
+                                                grid-template-columns: 80% 20%;padding: 2%">
+                                                    <div>
+                                                        <span>abc003745gb9023.doc</span>
+                                                    </div>
+                                                    <div>
+                                                        <span>988 KB</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div style="padding: 2%">
+                                                <p>Lorem ipsum dolor sit amet, consectetur
+                                                    adipiscing elit.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div style="margin-bottom:5%;">
+                                    <div>
+                                        <div style="margin-bottom:1%">
+                                            <p>INVITEES</p>
+                                        </div>
+                                    </div>
+                                    <div style="width:25%;">
+                                        <div style="display: grid;
+                                        grid-template-columns: 15% 85%;border: 1px solid #E0E0E0;padding: 3%">
+                                            <div style="align-self:center;">
+                                                <img src="../images/1.png" alt="" width="40" height="40" style="border-radius: 50%;">
+                                            </div>
+                                            <div>
+                                                <p>Luke Ray</p>
+                                                <p>Lorem ipsum doler sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="width:25%;">
+                                        <div style="display: grid;
+                                        grid-template-columns: 15% 85%;border: 1px solid #E0E0E0;padding: 3%">
+                                            <div style="align-self:center;">
+                                                <img src="../images/1.png" alt="" width="40" height="40" style="border-radius: 50%;">
+                                            </div>
+                                            <div>
+                                                <p>Daisy Lake</p>
+                                                <p>Lorem ipsum doler sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="width:25%;">
+                                        <div style="display: grid;
+                                        grid-template-columns: 15% 85%;border: 1px solid #E0E0E0;padding: 3%">
+                                            <div style="align-self:center;">
+                                                <img src="../images/1.png" alt="" width="40" height="40" style="border-radius: 50%;">
+                                            </div>
+                                            <div>
+                                                <p>Mark Smith</p>
+                                                <p>Lorem ipsum doler sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div style="margin-bottom:5%;">
+                                    <div>
+                                        <div style="margin-bottom:1%">
+                                            <span>APPROVAL(S)</span>
+                                        </div>
+                                    </div>
+                                    <div style="width:25%;">
+                                        <div style="display: grid;
+                                        grid-template-columns: 15% 85%;border: 1px solid #E0E0E0;padding: 3%">
+                                            <div style="align-self:center;">
+                                                <img src="../images/1.png" alt="" width="40" height="40" style="border-radius: 50%;">
+                                            </div>
+                                            <div>
+                                                <p>John Campbell</p>
+                                                <p>Lorem ipsum doler sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="width:25%;">
+                                        <div style="display: grid;
+                                        grid-template-columns: 15% 85%;border: 1px solid #E0E0E0;padding: 3%">
+                                            <div style="align-self:center;">
+                                                <img src="../images/1.png" alt="" width="40" height="40" style="border-radius: 50%;">
+                                            </div>
+                                            <div>
+                                                <p>Kate Gill</p>
+                                                <p>Lorem ipsum doler sit amet.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div style="display: grid;grid-template-columns: 80% 10% 10%;">
+                                    <div style="align-self: center;">
+                                        <a href="../views/acknowledgement.html" style="text-decoration:none;">
+                                            <span onclick="savedraft()" style="border-bottom:2px solid #B5B5B5;padding-bottom: 0.3%;color: #000000;">SAVE
+                                                DRAFT</span>
+                                        </a>
+                                    </div>
+                                    <div style="text-align: center;align-self: center;">
+                                        <span onclick="backtoapprover()" style="border-bottom:2px solid #32BDD2;color:#32BDD2;padding-bottom: 1%;">BACK</span>
+                                    </div>
+                                    <div>
+                                        <a href="../views/acknowledgement.html">
+                                            <button style="border:0px;background-color: #32bdd2;color: #FFFFFF;border-radius: 25px;text-align: center;padding: 5%;width: 50%;">SUBMIT</button>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

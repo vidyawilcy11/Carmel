@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Data_demo</title>
+</head>
+
+<body>
+    <div id="parent">
+
+    </div>
+
+    <script>
+        document.body.onload = addElement;
+        function addElement() {
+        }
+
+        // create a new div element 
+        var newDiv = document.createElement("div");
+        // and give it some content 
+        var newContent = document.createTextNode("Hi!");
+        // add the text node to the newly created div
+        newDiv.appendChild(newContent);
+
+        var x = document.createElement("img");
+        x.setAttribute("src", "../images/scenery.png");
+        x.setAttribute("width", "100");
+        x.setAttribute("height", "100");
+        x.setAttribute("alt", "dot-image")
+        document.body.appendChild(x);
+
+        var newDivision = document.createElement("p");
+        var newContenttext = document.createTextNode("This is a scenery");
+        newDivision.appendChild(newContenttext);
+
+        var currentDivcontent = document.getElementById("paragraph");
+        document.body.insertBefore(newDivision, currentDivcontent);
+
+    </script>
+</body>
+
+</html>

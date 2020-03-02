@@ -60,7 +60,10 @@
                 </div>
             </div>
             <div style="clear:both;padding-top:15%;">
-                <button onclick="login()" class="login-button">LOGIN</button>
+                <button id="login-error" onclick="login()" class="login-button">LOGIN</button>
+                <a href="../views/myrequestlistitems.html" style="text-decoration:none;">
+                    <button id="login-without-error" onclick="loginbutton()" class="login-button" style="display:none;">LOGIN</button>
+                </a>
             </div>
         </div>
     </div>
