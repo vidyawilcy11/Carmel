@@ -1,22 +1,17 @@
 [
     {
         "ID": "001",
-        "Name": "Angular",
+        "Name": "Profile",
         "Image": "../images/1.png"
     },
     {
         "ID": "002",
-        "Name": "JSON",
+        "Name": "Filter",
         "Image": "../images/request-icons-01.png"
     },
     {
         "ID": "003",
-        "Name": "Asp.Net",
-        "img": "../images/1.png"
-    },
-    {
-        "ID": "004",
-        "Name": "Angular js",
+        "Name": "Profile",
         "Image": "../images/1.png"
     }
 ]
