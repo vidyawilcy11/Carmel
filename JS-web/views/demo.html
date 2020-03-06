@@ -9,7 +9,6 @@
 </body>
 <script>
     function showDataWithImages() {
-
         var oXHR = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
 
         function reportStatus() {
@@ -37,7 +36,6 @@
                 img.src = arrItems[i].Image;
 
                 var divRight = document.createElement('div');
-                divRight.setAttribute('style', 'border-left: solid 1px #ddd;');
                 divRight.setAttribute('style', 'padding-bottom: 1%;');
                 divRight.appendChild(img);
 
@@ -49,9 +47,23 @@
                 button.appendChild(text);
                 divRight.appendChild(button);
                 button.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;text-align:end;align-self:end;";
-                button.setAttribute('onclick', 'alert("Hi")');
+                button.setAttribute('onclick', 'fetchfunction()');
+
+                var x = document.createElement("img");
+                x.setAttribute("src", "../images/1.jpeg");
+                x.setAttribute("width", "100");
+                x.setAttribute("height", "100");
+                x.setAttribute("alt", "movie-one");
+                x.setAttribute("id", "first-movie");
+                x.setAttribute("style", "display:none");
+                document.body.appendChild(x);
             }
         }
+    }
+
+    function fetchfunction() {
+        document.getElementById('first-movie').style.display = "block";
+        document.getElementById('movie-details').style.display = "none";
     }
 
 </script>
