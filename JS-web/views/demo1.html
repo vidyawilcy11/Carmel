@@ -15,7 +15,6 @@
             if (oXHR.readyState == 4)
                 showTheList(this.responseText);
         }
-
         oXHR.onreadystatechange = reportStatus;
         oXHR.open("GET", "movie_data_local.json", true);
         oXHR.send();
@@ -46,26 +45,27 @@
                 var text = document.createTextNode('next');
                 button.appendChild(text);
                 divRight.appendChild(button);
-                button.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;text-align:end;align-self:end;";
-                button.setAttribute('onclick', 'fetchfunction()');
+                button.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;text-align:end;;";
 
-                var x = document.createElement("img");
-                x.setAttribute("src", "../images/1.jpeg");
-                x.setAttribute("width", "200");
-                x.setAttribute("height", "300");
-                x.setAttribute("alt", "movie-one");
-                x.setAttribute("id", "first-movie");
-                x.setAttribute("style", "display:none");
-                document.body.appendChild(x);
-                x.setAttribute("name", "Movie-one");
+                var input = document.createElement("input");
+                input.type = "button";
+                input.className = "BUTTON";
+                input.value = "Choose this world";
+                input.onclick = (function (id, arrItems) {
+                    input.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;text-align:end;";
+
+                    return function () {
+                        game.pickWorld(arrItems, id);
+                    }
+                }); (id, arrItems);
             }
         }
     }
 
-    function fetchfunction() {
-        document.getElementById('first-movie').style.display = "block";
-        document.getElementById('movie-details').style.display = "none";
-    }
+    // var moviename = document.createElement("span");
+    // var moviename = document.createTextNode("MOVIE-ONE");
+    // divRight.appendChild(moviename);
+    // moviename.setAttribute("style", "display:none;");
 
 </script>
 
