@@ -2,11 +2,17 @@
 
 <head>
     <title>Fetch-data-locally</title>
+    <link rel="stylesheet" type="text/css" href="../css/demo.css">
 </head>
 
 <body onload="showDataWithImages()">
     <div id='movie-details'></div>
+
+    <!-- <p id="GFG_UP"></p>
+    <button onclick="GFG_Fun()">Click here</button>
+    <p id="GFG_DOWN"></p> -->
 </body>
+
 <script>
     function showDataWithImages() {
         var oXHR = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
@@ -46,24 +52,101 @@
                 var text = document.createTextNode('next');
                 button.appendChild(text);
                 divRight.appendChild(button);
-                button.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;text-align:end;align-self:end;";
+                button.style = "border:0px;background-color:#32bdd2;position:absolute;bottom:85%;left:90%;padding:0.5%;color:#FFFFFF;cursor:pointer";
                 button.setAttribute('onclick', 'fetchfunction()');
+                button.setAttribute('id', 'button_one');
 
                 var x = document.createElement("img");
-                x.setAttribute("src", "../images/1.jpeg");
+                x.setAttribute("src", "../images/5.jpeg");
                 x.setAttribute("width", "200");
                 x.setAttribute("height", "300");
                 x.setAttribute("alt", "movie-one");
                 x.setAttribute("id", "first-movie");
                 x.setAttribute("style", "display:none");
                 document.body.appendChild(x);
-                x.setAttribute("name", "Movie-one");
+
+                var y = document.createElement("img");
+                y.setAttribute("src", "../images/6.jpeg");
+                y.setAttribute("width", "200");
+                y.setAttribute("height", "300");
+                y.setAttribute("alt", "movie-two");
+                y.setAttribute("id", "second-movie");
+                y.setAttribute("style", "display:none");
+                document.body.appendChild(y);
+
+                var button_two = document.createElement('button_two');
+                var text_two = document.createTextNode('next');
+                button_two.appendChild(text_two);
+                divLeft.appendChild(button_two);
+                button_two.style = "border:0px;background-color:#32BDD2;position:absolute;left:90%;bottom:50%;padding:0.5%;color:#FFFFFF";
+                button_two.setAttribute('onclick', 'fetchdatatwo()');
+                button_two.setAttribute('id', 'button_one');
+
+                var z = document.createElement("img");
+                z.setAttribute("src", "../images/7.jpeg");
+                z.setAttribute("width", "200");
+                z.setAttribute("height", "300");
+                z.setAttribute("alt", "movie-three");
+                z.setAttribute("id", "third-movie");
+                z.setAttribute("style", "display:none");
+                document.body.appendChild(z);
+
+                let button_three = document.createElement('button_three');
+                let text_three = document.createTextNode('next');
+                button_three.appendChild(text_three);
+                div.appendChild(button_three);
+                button_three.style = "border:0px;background-color:#32BDD2;position:absolute;left:90%;bottom:20%;padding:0.5%;color:#FFFFFF"
+                button_three.setAttribute('onclick', 'fetchdatathree()');
+                button_three.setAttribute('id', 'button_two');
+
+                let button_four = document.createElement('button_four');
+                let text_four = document.createTextNode('next');
+                button_four.appendChild(text_four);
+                div.appendChild(button_four);
+                button_four.style = "border:0px;background-color:#32BDD2;position:absolute;left:90%;bottom:-10%;padding:0.5%;color:#FFFFFF"
+                button_four.setAttribute('onclick', 'fetchdatafour()');
+                button_four.setAttribute('id', "button_three");
+
+                var lastmovie = document.createElement("img");
+                lastmovie.setAttribute("src", "../images/8.jpeg");
+                lastmovie.setAttribute("width", "200");
+                lastmovie.setAttribute("height", "300");
+                lastmovie.setAttribute("alt", "movie-four");
+                lastmovie.setAttribute("id", "fourth-movie");
+                lastmovie.setAttribute("style", "display:none");
+                document.body.appendChild(lastmovie);
             }
         }
     }
 
+    // function GFG_Fun() {
+    //     var a = document.createElement('a');
+    //     var link = document.createTextNode("This is link");
+    //     a.appendChild(link);
+    //     a.title = "This is link";
+    //     a.href = "../views/addapprover.html";
+    //     document.body.appendChild(a);
+    // }
+
     function fetchfunction() {
         document.getElementById('first-movie').style.display = "block";
+        document.getElementById('movie-details').style.display = "none";
+    }
+
+    function fetchdatatwo() {
+        document.getElementById('button_one').style.display = "none";
+        document.getElementById('second-movie').style.display = "block";
+        document.getElementById('movie-details').style.display = "none";
+    }
+
+    function fetchdatathree() {
+        document.getElementById('movie-details').style.display = "none";
+        document.getElementById('second-movie').style.display = "none";
+        document.getElementById('third-movie').style.display = "block";
+    }
+
+    function fetchdatafour() {
+        document.getElementById('fourth-movie').style.display = "block";
         document.getElementById('movie-details').style.display = "none";
     }
 
