@@ -1,0 +1,200 @@
+<html>
+
+<head>
+    <title>Fetch-data-locally</title>
+    <link rel="stylesheet" type="text/css" href="../css/onclick_movie_attributes.css">
+</head>
+
+<body onload="showDataWithImages()">
+    <div id='movie-details'></div>
+
+    <div id="first_movie_parameters" class="space" style="display:none;">
+        <div>
+            <img src="../images/5.jpeg" alt="" width="200" height="300">
+        </div>
+        <div class="movie-name">
+            <span style="font-weight:bold">SMALL FOOT</span>
+        </div>
+        <div class="spacing">
+            <span>Original language: English</span>
+        </div>
+        <div>
+            <p class="paragraph">Overview: Migo, a friendly yeti, faces banishment from his home after he claims that
+                humans exist.
+                However, he embarks on a mission to prove himself and earn the respect of the villagers.
+            </p>
+        </div>
+        <div>
+            <span>Initial release: 27 September 2018 (Hong Kong)</span>
+        </div>
+        <div class="spacing">
+            <span>Director: Karey Kirkpatrick</span>
+        </div>
+    </div>
+
+    <div id="second_movie_parameters" class="space" style="display:none;">
+        <div>
+            <img src="../images/6.jpeg" alt="" width="200" height="300">
+        </div>
+        <div class="movie-name">
+            <span style="font-weight:bold">BIG HERO 6</span>
+        </div>
+        <div class="spacing">
+            <span>Original language: English</span>
+        </div>
+        <div>
+            <p class="paragraph">Overview: Hiro, a robotics prodigy, joins hands with Baymax in order to avenge his
+                brother's death. They
+                then team up with Hiro's friends to form a team of high-tech heroes.
+            </p>
+        </div>
+        <div>
+            <span>Release date: 7 November 2014 (India)</span>
+        </div>
+        <div class="spacing">
+            <span>Director: Don Hall</span>
+        </div>
+    </div>
+
+    <div id="third_movie_parameters" class="space" style="display:none;">
+        <div>
+            <img src="../images/7.jpeg" alt="" width="200" height="300">
+        </div>
+        <div class="movie-name">
+            <span style="font-weight:bold">SHREK</span>
+        </div>
+        <div class="spacing">
+            <span>Original language: English</span>
+        </div>
+        <div>
+            <p class="paragraph">Overview: Shrek, an ogre, embarks on a journey with a donkey to rescue Princess Fiona
+                from a vile lord
+                and regain his swamp.
+            </p>
+        </div>
+        <div>
+            <span>Initial release: 22 April 2001 (USA)</span>
+        </div>
+        <div class="spacing">
+            <span>Directors: Andrew Adamson, Vicky Jenson</span>
+        </div>
+    </div>
+
+    <div id="fourth_movie_parameters" class="space" style="display:none;">
+        <div>
+            <img src="../images/8.jpeg" alt="" width="200" height="300">
+        </div>
+        <div class="movie-name">
+            <span style="font-weight:bold">FINDING DORY</span>
+        </div>
+        <div class="spacing">
+            <span>Original language: English</span>
+        </div>
+        <div>
+            <p class="paragraph">Overview: With vague memories of her past, an amnesiac blue tang fish, Dory, sets off
+                in search of her
+                long-lost parents with the help of her friends, clownfish Marlin and his son Nemo.
+            </p>
+        </div>
+        <div>
+            <span>Release date: 17 June 2016 (India)</span>
+        </div>
+        <div class="spacing">
+            <span>Director: Andrew Stanton</span>
+        </div>
+    </div>
+</body>
+
+<script>
+    function showDataWithImages() {
+        var oXHR = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+
+        function reportStatus() {
+            if (oXHR.readyState == 4)
+                showTheList(this.responseText);
+        }
+
+        oXHR.onreadystatechange = reportStatus;
+        oXHR.open("GET", "movie_data_local.json", true);
+        oXHR.send();
+
+        function showTheList(json) {
+            var arrItems = [];
+            arrItems = JSON.parse(json);
+
+            var div = document.getElementById('movie-details');
+            div.innerHTML = '';
+
+            for (i = 0; i <= arrItems.length; i++) {
+
+                var divLeft = document.createElement('div');
+                divLeft.innerHTML = arrItems[i].Name;
+
+                var img = document.createElement('img');
+                img.src = arrItems[i].Image;
+
+                var divRight = document.createElement('div');
+                divRight.setAttribute('style', 'padding-bottom: 1%;');
+                divRight.appendChild(img);
+
+                div.appendChild(divLeft);
+                div.appendChild(divRight);
+
+                var button_two = document.createElement('button_two');
+                var text_two = document.createTextNode('next');
+                button_two.appendChild(text_two);
+                divLeft.appendChild(button_two);
+                button_two.style = "border:0px;background-color:#32BDD2;position:absolute;left:90%;bottom:50%;padding:0.5%;color:#FFFFFF";
+                button_two.setAttribute('onclick', 'fetchdatatwo()');
+                button_two.setAttribute('id', 'button_one');
+
+                let button_three = document.createElement('button_three');
+                let text_three = document.createTextNode('next');
+                button_three.appendChild(text_three);
+                div.appendChild(button_three);
+                button_three.style = "border:0px;background-color:#32BDD2;position:absolute;left:90%;bottom:20%;padding:0.5%;color:#FFFFFF"
+                button_three.setAttribute('onclick', 'fetchdatathree()');
+                button_three.setAttribute('id', 'button_two');
+
+                let button_four = document.createElement('button_four');
+                let text_four = document.createTextNode('next');
+                button_four.appendChild(text_four);
+                div.appendChild(button_four);
+                button_four.style = "border:0px;background-color:#32BDD2;position:absolute;left:90%;bottom:-10%;padding:0.5%;color:#FFFFFF"
+                button_four.setAttribute('onclick', 'fetchdatafour()');
+                button_four.setAttribute('id', "button_three");
+
+                var button = document.createElement('button');
+                var text = document.createTextNode('next');
+                button.appendChild(text);
+                divRight.appendChild(button);
+                button.style = "border:0px;background-color:#32BDD2;position:absolute;left:90%;bottom:85%;padding:0.5%;color:#FFFFFF"
+                button.setAttribute('onclick', 'fetchfunction()');
+                button.setAttribute('id', 'button_one');
+            }
+        }
+    }
+    function fetchfunction() {
+        document.getElementById('movie-details').style.display = "none";
+        document.getElementById('first_movie_parameters').style.display = "block";
+    }
+
+    function fetchdatatwo() {
+        document.getElementById('button_one').style.display = "none";
+        document.getElementById('movie-details').style.display = "none";
+        document.getElementById('second_movie_parameters').style.display = "block";
+    }
+
+    function fetchdatathree() {
+        document.getElementById('movie-details').style.display = "none";
+        document.getElementById('third_movie_parameters').style.display = "block";
+    }
+
+    function fetchdatafour() {
+        document.getElementById('movie-details').style.display = "none";
+        document.getElementById('fourth_movie_parameters').style.display = "block";
+    }
+
+</script>
+
+</html>

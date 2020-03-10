@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.paragraph{
+    width:50%;margin-top: 1%;margin-bottom: 1%;
+}
+.spacing{
+    margin-top: 1%;
+}
+.movie-name{
+    margin-top: 1%;
+}
+.space{
+    margin-top: 1%;margin-left: 1%;
+}
