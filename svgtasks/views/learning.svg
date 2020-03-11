@@ -1,0 +1,7 @@
+<svg viewbox="0 0 405.42 14.97" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 12 5 L 12 11 305 11 305 5 12 5" fill="#FFFFFF" stroke="#A9C7CB"/>
+    <line x1="305" x2="305" y1="5" y2="11" stroke="#FFFFFF"/>
+    <line x1="12" x2="12" y1="5" y2="11" stroke="#FFFFFF"/>
+    <path d="M 305 5 C 312 5 312 11 305 11" fill="#FFFFFF" stroke="#A9C7CB"/>
+    <path d="M 12 5 C 5 5 5 11 12 11" fill="#FFFFFF" stroke="#A9C7CB"/>
+</svg>

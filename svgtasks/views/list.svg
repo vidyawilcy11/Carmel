@@ -1,0 +1,50 @@
+<svg viewbox="0 0 405.42 14.97" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 285 5 L 285 11 305 11 305 5" fill="#3A8CD6"/>
+    <path d="M 12 5 L 12 11 285 11 285 5" fill="#A0D5FF"/>
+    <path d="M 12 5 C 5 5 5 11 12 11" fill="#A0D5FF"/>
+    <path d="M 305 5 C 312 5 312 11 305 11" fill="#3A8CD6"/>
+    <line x1="12" x2="12" y1="5" y2="11" stroke="#A0D5FF"/>
+    <line x1="305" x2="305" y1="11" y2="5" stroke="#3A8CD6"/>
+</svg>
+<svg viewbox="0 0 405.42 14.97" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 240 5 L 240 11 305 11 305 5" fill="#F54750"/>
+    <path d="M 12 5 L 12 11 240 11 240 5" fill="#A0D5FF"/>
+    <path d="M 12 5 C 5 5 5 11 12 11" fill="#A0D5FF"/>
+    <path d="M 305 5 C 312 5 312 11 305 11" fill="#F54750"/>
+    <line x1="12" x2="12" y1="5" y2="11" stroke="#A0D5FF"/>
+    <line x1="305" x2="305" y1="11" y2="5" stroke="#F54750"/>
+</svg>
+<svg viewbox="0 0 405.42 14.97" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 260 5 L 260 11 305 11 305 5" fill="#F54750"/>
+    <path d="M 12 5 L 12 11 260 11 260 5" fill="#A0D5FF"/>
+    <path d="M 12 5 C 5 5 5 11 12 11" fill="#A0D5FF"/>
+    <path d="M 305 5 C 312 5 312 11 305 11" fill="#F54750"/>
+    <line x1="12" x2="12" y1="5" y2="11" stroke="#A0D5FF"/>
+    <line x1="305" x2="305" y1="11" y2="5" stroke="#F54750"/>
+</svg>
+<svg viewbox="0 0 405.42 14.97" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 12 5 L 12 11 90 11 90 5" fill="#A0D5FF"/>
+    <path d="M 90 5 L 90 11 189 11 189 5" fill="#F54750"/>
+    <path d="M 189 5 L 189 11 305 11 305 5" fill="#3A8CD6"/>
+    <path d="M 12 5 C 5 5 5 11 12 11" fill="#A0D5FF"/>
+    <path d="M 305 5 C 312 5 312 11 305 11" fill="#3A8CD6"/>
+    <line x1="12" x2="12" y1="5" y2="11" stroke="#A0D5FF"/>
+    <line x1="305" x2="305" y1="11" y2="5" stroke="#3A8CD6"/>
+</svg>
+<svg viewbox="0 0 405.42 14.97" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 12 5 L 12 11 90 11 90 5" fill="#A0D5FF"/>
+    <path d="M 90 5 L 90 11 189 11 189 5" fill="#A0D5FF"/>
+    <path d="M 189 5 L 189 11 305 11 305 5" fill="#A0D5FF"/>
+    <path d="M 12 5 C 5 5 5 11 12 11" fill="#A0D5FF"/>
+    <path d="M 305 5 C 312 5 312 11 305 11" fill="#A0D5FF"/>
+    <line x1="12" x2="12" y1="5" y2="11" stroke="#A0D5FF"/>
+</svg>
+<svg viewbox="0 0 405.42 14.97" xmlns="http://www.w3.org/2000/svg">
+    <path d="M 12 5 L 12 11 305 11 305 5 12 5" fill="#FFFFFF" stroke="#A9C7CB"/>
+    <line x1="305" x2="305" y1="5.5" y2="10.5" stroke="#FFFFFF"/>
+    <line x1="12" x2="12" y1="5.5" y2="10.5" stroke="#FFFFFF"/>
+    <path d="M 305 5 C 312 5 312 11 305 11" fill="#FFFFFF" stroke="#A9C7CB"/>
+    <path d="M 12 5 C 5 5 5 11 12 11" fill="#FFFFFF" stroke="#A9C7CB"/>
+</svg>
+
+
