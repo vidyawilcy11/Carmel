@@ -6,12 +6,35 @@
 
 <body onload="showDataWithImages()">
     <div id='movie-details'></div>
+
+    <div id="first_movie_parameters" class="space" style="display:none;">
+        <div>
+            <img src="../images/5.jpeg" alt="" width="200" height="300">
+        </div>
+        <div class="movie-name">
+            <span style="font-weight:bold">SMALL FOOT</span>
+        </div>
+        <div class="spacing">
+            <span>Original language: English</span>
+        </div>
+        <div>
+            <p class="paragraph">Overview: Migo, a friendly yeti, faces banishment from his home after he claims that
+                humans exist.
+                However, he embarks on a mission to prove himself and earn the respect of the villagers.
+            </p>
+        </div>
+        <div>
+            <span>Initial release: 27 September 2018 (Hong Kong)</span>
+        </div>
+        <div class="spacing">
+            <span>Director: Karey Kirkpatrick</span>
+        </div>
+    </div>
+
 </body>
 <script>
     function showDataWithImages() {
-
         var oXHR = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
-
         function reportStatus() {
             if (oXHR.readyState == 4)
                 showTheList(this.responseText);
@@ -48,10 +71,16 @@
                 var text = document.createTextNode('next');
                 button.appendChild(text);
                 divRight.appendChild(button);
-                button.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;text-align:end;align-self:end;";
-                button.setAttribute('onclick', 'alert("Hi")');
+                button.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;";
+                button.setAttribute('onclick', 'myfunction()');
             }
         }
+    }
+
+    function myfunction() {
+        document.getElementsById('first_movie_parameters').style.display = "block";
+        document.getElementById('movie-details').style.display = "none";
+        // document.getElementById('second_movie_parameters').style.display = "block";
     }
 
 </script>
