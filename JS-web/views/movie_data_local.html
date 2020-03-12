@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>Fetch-data-locally</title>
+    <title>Fetch-movie-data-locally</title>
 </head>
 
 <body onload="showDataWithImages()">
@@ -28,6 +28,78 @@
         </div>
         <div class="spacing">
             <span>Director: Karey Kirkpatrick</span>
+        </div>
+    </div>
+
+    <div id="second_movie_parameters" class="space" style="display:none;">
+        <div>
+            <img src="../images/6.jpeg" alt="" width="200" height="300">
+        </div>
+        <div class="movie-name">
+            <span style="font-weight:bold">BIG HERO 6</span>
+        </div>
+        <div class="spacing">
+            <span>Original language: English</span>
+        </div>
+        <div>
+            <p class="paragraph">Overview: Hiro, a robotics prodigy, joins hands with Baymax in order to avenge his
+                brother's death. They
+                then team up with Hiro's friends to form a team of high-tech heroes.
+            </p>
+        </div>
+        <div>
+            <span>Release date: 7 November 2014 (India)</span>
+        </div>
+        <div class="spacing">
+            <span>Director: Don Hall</span>
+        </div>
+    </div>
+
+    <div id="third_movie_parameters" class="space" style="display:none;">
+        <div>
+            <img src="../images/7.jpeg" alt="" width="200" height="300">
+        </div>
+        <div class="movie-name">
+            <span style="font-weight:bold">SHREK</span>
+        </div>
+        <div class="spacing">
+            <span>Original language: English</span>
+        </div>
+        <div>
+            <p class="paragraph">Overview: Shrek, an ogre, embarks on a journey with a donkey to rescue Princess Fiona
+                from a vile lord
+                and regain his swamp.
+            </p>
+        </div>
+        <div>
+            <span>Initial release: 22 April 2001 (USA)</span>
+        </div>
+        <div class="spacing">
+            <span>Directors: Andrew Adamson, Vicky Jenson</span>
+        </div>
+    </div>
+
+    <div id="fourth_movie_parameters" class="space" style="display:block;">
+        <div>
+            <img src="../images/8.jpeg" alt="" width="200" height="300">
+        </div>
+        <div class="movie-name">
+            <span style="font-weight:bold">FINDING DORY</span>
+        </div>
+        <div class="spacing">
+            <span>Original language: English</span>
+        </div>
+        <div>
+            <p class="paragraph">Overview: With vague memories of her past, an amnesiac blue tang fish, Dory, sets off
+                in search of her
+                long-lost parents with the help of her friends, clownfish Marlin and his son Nemo.
+            </p>
+        </div>
+        <div>
+            <span>Release date: 17 June 2016 (India)</span>
+        </div>
+        <div class="spacing">
+            <span>Director: Andrew Stanton</span>
         </div>
     </div>
 
@@ -71,17 +143,38 @@
                 var text = document.createTextNode('next');
                 button.appendChild(text);
                 divRight.appendChild(button);
-                button.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;";
+                button.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;"
                 button.setAttribute('onclick', 'myfunction()');
+                button.setAttribute('id', 'second_movie_data');
+
+
+                // var moreBtn = document.createElement('button');
+                // var text = document.createTextNode('moreBtn');
+                // divRight.appendChild(text);
+                // moreBtn.style = "border:0px;background-color:#32bdd2;color:#FFFFFF;";
+                // moreBtn.id = "btn" + i;
+                // moreBtn.onclick = function myfunction() {
+                //     if (moreBtn.innerHTML == "MORE") {
+                //         first_movie_parameters.style.visibility == "visible";
+                //         moreBtn.innerHTML = "LESS";
+                //     } else {
+                //         movie - details.style.visibility == "visible";
+                //         moreBtn.innerHTML = "MORE";
+                //     }
+                // }
             }
         }
     }
 
     function myfunction() {
-        document.getElementsById('first_movie_parameters').style.display = "block";
         document.getElementById('movie-details').style.display = "none";
-        // document.getElementById('second_movie_parameters').style.display = "block";
+        document.getElementById('first_movie_parameters').style.display = "block";
     }
+
+    // function myfunction() {
+    //     document.getElementsById('first_movie_parameters').style.display = "block";
+    //     document.getElementById('movie-details').style.display = "none";
+    // }
 
 </script>
 
